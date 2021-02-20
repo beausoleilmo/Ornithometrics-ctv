@@ -1,0 +1,118 @@
+<CRANTaskView>
+  <name>Ornithometrics</name>
+  <topic>Analysis of ornithological data</topic>
+  <maintainer email="marc-olivier.beausoleil@mail.mcgill.ca">Marc-Olivier Beausoleil</maintainer>
+  <version>2021-02-20</version>
+  <url>https://CRAN.R-project.org/view=Ornithometrics</url>
+
+
+
+    <info>
+      <h3><strong>Introduction</strong></h3>
+      
+      <p> The study of ornithology is vast and multidisciplinary in essence. Thus this "Ornithometrics" will refer to the collection of measurements that can be taken from birds. Other <i>task views</i> should be consulted for broader perspective about ecology by looking at the <view>Environmetrics</view> and <view>Spatial</view> task views.    
+      </p>
+      
+      <h3><strong>Communication and acoustic analysis</strong></h3>
+        <ul>
+          <li><a href="https://github.com/maRce10/warbleR">warbleR</a>: Github package to analyse the structure of animal acoustic signals.</li>
+
+        </ul>
+      
+      <h3><strong>Concervation</strong></h3>
+        <ul>
+        </ul>
+        
+      <h3><strong>Genetics</strong></h3>
+        <ul>
+        </ul>
+
+      <h3><strong>Mark-recapture analysis</strong></h3>
+        <ul>
+        </ul>
+
+      <h3><strong>Movement ecology, navigation, telemetry, GPS, habitat use</strong></h3>
+        <ul>
+        <li><a href="https://github.com/cppeck/razimuth">razimuth</a> </li>
+        <li><a href="https://github.com/cran/sigloc">sigloc</a> </li>
+        </ul>
+      
+      <h3><strong>Phylogeny</strong></h3>
+        <ul>
+        <li><a href="https://github.com/ropensci/phylotaR">phylotaR</a>: Retrieval of orthologous DNA from GenBank</li>
+        </ul>
+
+      <h3><strong>Physiology and life histories</strong></h3>
+        <ul>
+        </ul>
+
+      <h3><strong>Population dynamics</strong></h3>
+        <ul>
+        </ul>
+
+      <h3><strong>Research miscellaneous</strong></h3>
+        <ul>
+        <li><a href="https://github.com/elizagrames/litsearchr">litsearchr</a></li>
+        </ul>
+        
+        <h3><strong>Spatial analysis</strong></h3>
+        <ul>
+        </ul>
+
+
+    
+    </info>
+
+
+    <packagelist>
+      <pkg>acmeR</pkg>
+      <pkg>adehabitatHR</pkg>
+      <pkg>adehabitatHS</pkg>
+      <pkg>adehabitatLT</pkg>
+      <pkg>adephylo</pkg>
+      <pkg>auk</pkg>
+      <pkg>bbsBayes</pkg>
+      <pkg>bSims</pkg>
+      <pkg>birdring</pkg>
+      <pkg>ebirdst</pkg>
+      <pkg>flying</pkg>
+      <pkg>FlyingR</pkg>
+      <pkg>monitoR</pkg>
+      <pkg>moult</pkg>
+      <pkg>moveWindSpeed</pkg>
+      <pkg>openCR</pkg>
+      <pkg>R2ucare</pkg>
+      <pkg>rAvis</pkg>
+      <pkg>rebird</pkg>
+      <pkg>rjags</pkg>
+      <pkg>RMark</pkg>
+      <pkg>rredlist</pkg>
+      <pkg>rstan</pkg>
+      <pkg>seewave</pkg>
+      <pkg>SongEvo</pkg>
+      <pkg>taxize</pkg>
+      <pkg>weathercan</pkg>
+      <pkg>wildlifeDI</pkg>
+    </packagelist>
+
+
+
+    <links>
+      <view>Bayesian</view>
+      <view>Databases</view>
+      <view>Environmetrics</view>
+      <view>Genetics</view>
+      <view>Multivariate</view>
+      <view>Phylogenetics</view>
+      <view>ReproducibleResearch</view>
+      <view>Spatial</view>
+      <view>SpatioTemporal</view>
+      <view>Survival</view>
+      <view>TimeSeries</view>
+      <view>Tracking</view>
+      <a href="https://github.com/animalnexus/">Animalnexus project: Tools for animal movement using RFID</a>
+      <a href="https://github.com/MotusWTS/motus">Motus Wildlife Tracking System</a>
+      <a href="https://github.com/steffilazerte/cavityuse">Determine cavity use from geolocator light data</a>
+    </links>
+
+</CRANTaskView>
