@@ -2,7 +2,7 @@
   <name>Ornithometrics</name>
   <topic>Analysis of ornithological data</topic>
   <maintainer email="marc-olivier.beausoleil@mail.mcgill.ca">Marc-Olivier Beausoleil</maintainer>
-  <version>2021-02-20</version>
+  <version>2021-03-16</version>
   <url>https://CRAN.R-project.org/view=Ornithometrics</url>
 
 
@@ -10,16 +10,19 @@
     <info>
       <h3><strong>Introduction</strong></h3>
       
-      <p> The study of ornithology is vast and multidisciplinary in essence. Thus this "Ornithometrics" will refer to the collection of measurements that can be taken from birds. Other <i>task views</i> should be consulted for broader perspective about ecology by looking at the <view>Environmetrics</view> and <view>Spatial</view> task views.    
+      <p> The study of ornithology is vast and multidisciplinary in essence. Thus this "Ornithometrics" (*ornitho-*; 'bird' and *-metric*; 'relating to measurement') will refer to the collection of measurements that can be taken from birds. Other <i>task views</i> should be consulted for broader perspective about ecology by looking at the <view>Environmetrics</view> and <view>Spatial</view> task views.    
       </p>
       
       <h3><strong>Communication and acoustic analysis</strong></h3>
         <ul>
-          <li><a href="https://github.com/maRce10/warbleR">warbleR</a>: Github package to analyse the structure of animal acoustic signals.</li>
+          <li><a href="https://github.com/maRce10/warbleR">warbleR</a>: Github package to analyse the structure of animal acoustic signals. (Araya-Salas and Smith-Vidaurre 2017)</li>
+          <li><pkg>soundecology</pkg></li>
+          <li><pkg>seewave</pkg></li>
+          <li><pkg>tuneR</pkg></li>
 
         </ul>
       
-      <h3><strong>Concervation</strong></h3>
+      <h3><strong>Conservation</strong></h3>
         <ul>
         </ul>
         
@@ -29,21 +32,32 @@
 
       <h3><strong>Mark-recapture analysis</strong></h3>
         <ul>
+        <li> <pkg>RMark</pkg> (Laake 2013)</li>
+        <li> <pkg>rjags</pkg> (Plummer 2003)</li>
         </ul>
 
       <h3><strong>Movement ecology, navigation, telemetry, GPS, habitat use</strong></h3>
+        <strong> Relocation of animals: </strong>
+        Finding the location of animals can be done via a diversity of methods such as Very High Frequency (VHF) radio waves emitters, Global Positioning System (GPS), semi-automated data collection using <a href="https://motus.org"> MOTUS Wildlefe Tracking System</a> and other techniques. It is recommanded to look at the "*Space and habitat use characterization*" section of the <view>Tracking</view> to learn about *Home ranges*, *Habitat use*, and *Non-conventional approaches for space use*.
         <ul>
-        <li><a href="https://github.com/cppeck/razimuth">razimuth</a> </li>
-        <li><a href="https://github.com/cran/sigloc">sigloc</a> </li>
+          <li><a href="https://github.com/cppeck/razimuth">razimuth</a>: (Gerber et al. 2018)</li>
+          <li><a href="https://github.com/cran/sigloc">sigloc</a>: The sigloc (Signal Location Estimation; Berg 2015) package is now <a href="https://cran.r-project.org/package=sigloc">archived</a> on the CRAN. </li>
+          <li><a href="https://github.com/jmsigner/rhr">rhr</a>: reproducible home range analysis with R (Signer and Balkenhol 2015)</li>
+          <li><pkg>ctmm</pkg>:  (Calabrese, Fleming and Gurarie 2016)</li>
+          <li><pkg>ResourceSelection</pkg>:  (;;)</li>
+          <li><a href="https://github.com/MotusWTS/motus">Motus</a>. The Motus book can be <a href="https://beta.motus.org/MotusRBook/">seen from this link</a></li>
+          
         </ul>
       
       <h3><strong>Phylogeny</strong></h3>
         <ul>
-        <li><a href="https://github.com/ropensci/phylotaR">phylotaR</a>: Retrieval of orthologous DNA from GenBank</li>
+        <li><a href="https://github.com/ropensci/phylotaR">phylotaR</a>: Retrieval of orthologous DNA from GenBank (Bennett et al. 2018)</li>
         </ul>
 
-      <h3><strong>Physiology and life histories</strong></h3>
+      <h3><strong>Physiology, phenology and life histories</strong></h3>
         <ul>
+        <li><a href="https://github.com/pboesu/moultmcmc/">moultmcmc</a>: Bayesian inference for moult phenology models</li>
+        <li><pkg>MixSIAR</pkg>: Bayesian Mixing Models in R with which stable isotope mixing models can be used to reconstruct avian diet</li>
         </ul>
 
       <h3><strong>Population dynamics</strong></h3>
@@ -57,6 +71,37 @@
         
         <h3><strong>Spatial analysis</strong></h3>
         <ul>
+        <li><pkg>sf</pkg>:</li>
+        <li><pkg>raster</pkg>:</li>
+        <li><pkg>tmap</pkg>:</li>
+        <li><pkg>osmdata</pkg>:</li>
+        
+        </ul>
+
+      <h3><strong>Data</strong></h3>
+        <ul>
+        <li><a href="https://ebird.org/science">eBird data</a>. <pkg>ebirdst</pkg> is a package that allows access and analyze eBird status and trends data</li>
+        <li><a href="https://www.inaturalist.org/pages/how+can+i+use+it">iNaturalist</a></li>
+        <li><a href="https://www.gbif.org">gbif</a></li>
+        <li><a href="https://observation.org">Observation.org</a></li> (In development)
+        <li><a href="https://www.birdscanada.org/birdmon/default/main.jsp">NatureCounts</a></li>
+        </ul>
+
+        <h3><strong>References</strong></h3>
+        <ul>
+        <li> Araya-Salas, M., and G. Smith-Vidaurre. 2017. warbleR: an r package to streamline analysis of animal acoustic signals. Methods in Ecology and Evolution 8:184–191.</li>
+        <li> Bennett, D. J., H. Hettling, D. Silvestro, A. Zizka, C. D. Bacon, S. Faurby, R. A. Vos, and A. Antonelli. 2018. phylotaR: An Automated Pipeline for Retrieving Orthologous DNA Sequences from GenBank in R. Life 8:20.</li>
+        <li> Berg, S. S. 2015. The package “sigloc” for the R software: a tool for triangulating transmitter locations in ground-based telemetry studies of wildlife populations. Bulletin of the Ecological Society of America 96:500–507. </li>
+        <li> Calabrese, J. M., C. H. Fleming, and E. Gurarie. 2016. ctmm: an R package for analyzing animal relocation data as a continuous-time stochastic process. Methods in Ecology and Evolution 7:1124–1132.</li>
+        <li> Calenge, C. 2006. The package “adehabitat” for the R software: A tool for the analysis of space and habitat use by animals. Ecological Modelling 197:516–519.</li>
+        <li> Edwards, B. P. M., and A. C. Smith. 2020. bbsBayes: An R Package for Hierarchical Bayesian Analysis of North American Breeding Bird Survey Data. bioRxiv:1–25.</li>
+        <li> Gerber, B. D., M. B. Hooten, C. P. Peck, M. B. Rice, J. H. Gammonley, A. D. Apa, and A. J. Davis. 2018. Accounting for location uncertainty in azimuthal telemetry data improves ecological inference. Movement Ecology 6:1–14.</li>
+        <li>Jombart, T., S. Dray, and F. Balloux. 2010. adephylo: exploratory analyses for the phylogenetic comparative method. Bioinformatics 26:1907–1909.</li>
+        <li> Laake, J. L. 2013. RMark: An R Interface for analysis of capture-recapture data with MARK. Page 25 Alaska Fisheries Science Center AFSC processed report 2013-01. Alaska Fish. Sci. Cent., NOAA, Natl. Mar. Fish. Serv. Seattle, WA.</li>
+        <li> Plummer, M. 2003. rjags: Bayesian Graphical Models using MCMC. Fourth edition.</li>
+        <li> Signer, J., and N. Balkenhol. 2015. Reproducible home ranges (rhr): a new, user-friendly R package for analyses of wildlife telemetry data. Wildlife Society Bulletin 39:358–363.</li>
+        <li>Strimas-Mackey, M., E. Miller, and W. M. Hochachka. 2018. auk: eBird Data Extraction and Processing with AWK. https://cornelllabofornithology.github.io/auk/.</li>
+        <li> </li>
         </ul>
 
 
@@ -74,23 +119,32 @@
       <pkg>bbsBayes</pkg>
       <pkg>bSims</pkg>
       <pkg>birdring</pkg>
+      <pkg>ctmm</pkg>
       <pkg>ebirdst</pkg>
       <pkg>flying</pkg>
       <pkg>FlyingR</pkg>
+      <pkg>MixSIAR</pkg>
       <pkg>monitoR</pkg>
       <pkg>moult</pkg>
       <pkg>moveWindSpeed</pkg>
       <pkg>openCR</pkg>
+      <pkg>osmdata</pkg>
       <pkg>R2ucare</pkg>
+      <pkg>raster</pkg>
       <pkg>rAvis</pkg>
       <pkg>rebird</pkg>
+      <pkg>ResourceSelection</pkg>
       <pkg>rjags</pkg>
       <pkg>RMark</pkg>
       <pkg>rredlist</pkg>
       <pkg>rstan</pkg>
       <pkg>seewave</pkg>
+      <pkg>sf</pkg>
       <pkg>SongEvo</pkg>
+      <pkg>soundecology</pkg>
       <pkg>taxize</pkg>
+      <pkg>tmap</pkg>
+      <pkg>tuneR</pkg>
       <pkg>weathercan</pkg>
       <pkg>wildlifeDI</pkg>
     </packagelist>
@@ -111,7 +165,10 @@
       <view>TimeSeries</view>
       <view>Tracking</view>
       <a href="https://github.com/animalnexus/">Animalnexus project: Tools for animal movement using RFID</a>
-      <a href="https://github.com/MotusWTS/motus">Motus Wildlife Tracking System</a>
+      <a href="https://github.com/ropensci/rinat">rinat: Access iNaturalist data with R</a>
+      <a href="https://github.com/birdstudiescanada/naturecounts">Get observations from NatureCounts</a>
+      <a href="https://github.com/MotusWTS/motus">Motus Wildlife Tracking System</a> 
+      <a href="https://github.com/MotusWTS/motusdata">Motus datasets</a>
       <a href="https://github.com/steffilazerte/cavityuse">Determine cavity use from geolocator light data</a>
     </links>
 
