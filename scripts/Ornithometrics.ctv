@@ -38,15 +38,14 @@
 
       <h3><strong>Movement ecology, navigation, telemetry, GPS, habitat use</strong></h3>
         <strong> Relocation of animals: </strong>
-        Finding the location of animals can be done via a diversity of methods such as Very High Frequency (VHF) radio waves emitters, Global Positioning System (GPS), semi-automated data collection using <a href="https://motus.org"> MOTUS Wildlefe Tracking System</a> and other techniques. It is recommanded to look at the "*Space and habitat use characterization*" section of the <view>Tracking</view> to learn about *Home ranges*, *Habitat use*, and *Non-conventional approaches for space use*.
+        Finding the location of animals can be done via a diversity of methods such as Very High Frequency (VHF) radio waves emitters, Global Positioning System (GPS), semi-automated data collection using <a href="https://motus.org"> MOTUS Wildlefe Tracking System</a> and other techniques. It is recommanded to look at the "*Space and habitat use characterization*" section of the <view>Tracking</view> to learn about *Home ranges*, *Habitat use*, and *Non-conventional approaches for space use*. I. Bartomeus <a href="https://gist.github.com/ibartomeus/cdddca21d5dbff26a25e">has a page</a> in which preference indicies calculations in R are demonstrated.
         <ul>
           <li><a href="https://github.com/cppeck/razimuth">razimuth</a>: (Gerber et al. 2018)</li>
           <li><a href="https://github.com/cran/sigloc">sigloc</a>: The sigloc (Signal Location Estimation; Berg 2015) package is now <a href="https://cran.r-project.org/package=sigloc">archived</a> on the CRAN. </li>
           <li><a href="https://github.com/jmsigner/rhr">rhr</a>: reproducible home range analysis with R (Signer and Balkenhol 2015)</li>
           <li><pkg>ctmm</pkg>:  (Calabrese, Fleming and Gurarie 2016)</li>
-          <li><pkg>ResourceSelection</pkg>:  (;;)</li>
+          <li><pkg>ResourceSelection</pkg>:  (Lele and Keim 2006; Lele 2009; Sólymos and Lele 2016)</li>
           <li><a href="https://github.com/MotusWTS/motus">Motus</a>. The Motus book can be <a href="https://beta.motus.org/MotusRBook/">seen from this link</a></li>
-          
         </ul>
       
       <h3><strong>Phylogeny</strong></h3>
@@ -64,11 +63,6 @@
         <ul>
         </ul>
 
-      <h3><strong>Research miscellaneous</strong></h3>
-        <ul>
-        <li><a href="https://github.com/elizagrames/litsearchr">litsearchr</a></li>
-        </ul>
-        
         <h3><strong>Spatial analysis</strong></h3>
         <ul>
         <li><pkg>sf</pkg>:</li>
@@ -85,6 +79,15 @@
         <li><a href="https://www.gbif.org">gbif</a></li>
         <li><a href="https://observation.org">Observation.org</a></li> (In development)
         <li><a href="https://www.birdscanada.org/birdmon/default/main.jsp">NatureCounts</a></li>
+        <li><a href="https://www.pauljhurtado.com/US_Composite_Radar/">Archive of radar images in the U.S.</a></li>
+        </ul>
+
+
+      <h3><strong>Research miscellaneous</strong></h3>
+        <ul>
+        <li><pkg>patchwork</pkg></li>
+        <li><pkg>tidyverse</pkg></li>
+        <li><a href="https://github.com/elizagrames/litsearchr">litsearchr</a></li>
         </ul>
 
         <h3><strong>References</strong></h3>
@@ -96,11 +99,14 @@
         <li> Calenge, C. 2006. The package “adehabitat” for the R software: A tool for the analysis of space and habitat use by animals. Ecological Modelling 197:516–519.</li>
         <li> Edwards, B. P. M., and A. C. Smith. 2020. bbsBayes: An R Package for Hierarchical Bayesian Analysis of North American Breeding Bird Survey Data. bioRxiv:1–25.</li>
         <li> Gerber, B. D., M. B. Hooten, C. P. Peck, M. B. Rice, J. H. Gammonley, A. D. Apa, and A. J. Davis. 2018. Accounting for location uncertainty in azimuthal telemetry data improves ecological inference. Movement Ecology 6:1–14.</li>
-        <li>Jombart, T., S. Dray, and F. Balloux. 2010. adephylo: exploratory analyses for the phylogenetic comparative method. Bioinformatics 26:1907–1909.</li>
+        <li> Jombart, T., S. Dray, and F. Balloux. 2010. adephylo: exploratory analyses for the phylogenetic comparative method. Bioinformatics 26:1907–1909.</li>
         <li> Laake, J. L. 2013. RMark: An R Interface for analysis of capture-recapture data with MARK. Page 25 Alaska Fisheries Science Center AFSC processed report 2013-01. Alaska Fish. Sci. Cent., NOAA, Natl. Mar. Fish. Serv. Seattle, WA.</li>
+        <li> Lele, S. R. 2009. A New Method for Estimation of Resource Selection Probability Function. Journal of Wildlife Management 73:122–127.</li>
+        <li> Lele, S. R., and J. L. Keim. 2006. Weighted distributions and estimation of resource selection probability functions. Ecology 87:3021–3028.</li>
         <li> Plummer, M. 2003. rjags: Bayesian Graphical Models using MCMC. Fourth edition.</li>
         <li> Signer, J., and N. Balkenhol. 2015. Reproducible home ranges (rhr): a new, user-friendly R package for analyses of wildlife telemetry data. Wildlife Society Bulletin 39:358–363.</li>
-        <li>Strimas-Mackey, M., E. Miller, and W. M. Hochachka. 2018. auk: eBird Data Extraction and Processing with AWK. https://cornelllabofornithology.github.io/auk/.</li>
+        <li> Sólymos, P., and S. R. Lele. 2016. Revisiting resource selection probability functions and single-visit methods: clarification and extensions. Methods in Ecology and Evolution 7:196–205.</li>
+        <li> Strimas-Mackey, M., E. Miller, and W. M. Hochachka. 2018. auk: eBird Data Extraction and Processing with AWK. https://cornelllabofornithology.github.io/auk/.</li>
         <li> </li>
         </ul>
 
@@ -129,6 +135,7 @@
       <pkg>moveWindSpeed</pkg>
       <pkg>openCR</pkg>
       <pkg>osmdata</pkg>
+      <pkg>patchwork</pkg>
       <pkg>R2ucare</pkg>
       <pkg>raster</pkg>
       <pkg>rAvis</pkg>
@@ -143,6 +150,7 @@
       <pkg>SongEvo</pkg>
       <pkg>soundecology</pkg>
       <pkg>taxize</pkg>
+      <pkg>tidyverse</pkg>
       <pkg>tmap</pkg>
       <pkg>tuneR</pkg>
       <pkg>weathercan</pkg>
