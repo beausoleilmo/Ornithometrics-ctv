@@ -10,7 +10,7 @@
     <info>
       <h3><strong>Introduction</strong></h3>
       
-      <p> The study of ornithology is vast and multidisciplinary in essence. Thus this "Ornithometrics" (*ornitho-*; 'bird' and *-metric*; 'relating to measurement') will refer to the collection of measurements that can be taken from birds. Other <i>task views</i> should be consulted for broader perspective about ecology by looking at the <view>Environmetrics</view> and <view>Spatial</view> task views.    
+      <p> The study of ornithology is vast and multidisciplinary in essence. Thus this "Ornithometrics" (*ornitho-*; 'bird' and *-metric*; 'relating to measurement') will refer to the collection of measurements that can be taken from birds. The headings were made to facilitate navigation, but some packages might fall in multiple categories. Other <i>task views</i> could be consulted for broader coverage of topics including ecology and environment (<view>Environmetrics</view>) and spatial analysis (<view>Spatial</view>).
       </p>
       
       <h3><strong>Communication and acoustic analysis</strong></h3>
@@ -28,23 +28,35 @@
         
       <h3><strong>Genetics</strong></h3>
         <ul>
+          <li><view>Genetics</view></li>
         </ul>
 
       <h3><strong>Mark-recapture analysis</strong></h3>
         <ul>
-        <li> <pkg>RMark</pkg> (Laake 2013)</li>
-        <li> <pkg>rjags</pkg> (Plummer 2003)</li>
+        <li> <pkg>marked</pkg> </li>
+        <li> <pkg>mrds</pkg> </li>
+        <li> <pkg>nimbleSCR</pkg> </li>
+        <li><a href="https://github.com/jaroyle/oSCR">oSCR: open spatial capture-recapture</a>. <a href="https://sites.google.com/site/spatialcapturerecapture/oscr-package">A the project webpage</a> has details about tutorials and workshops</li> 
+        <li> <pkg>PresenceAbsence</pkg> </li>
+        <li> <pkg>Rcapture</pkg></li>
+        <li> <pkg>rjags</pkg> (Plummer 2003) </li>
+        <li> <pkg>RMark</pkg> (Laake 2013) </li>
+        <li><a href="https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package">scrbook</a>.</li> 
+        <li> <pkg>secr</pkg> </li>
+        <li> <pkg>unmarked</pkg> </li>
         </ul>
 
-      <h3><strong>Movement ecology, navigation, telemetry, GPS, habitat use</strong></h3>
+      <h3><strong>Movement ecology, navigation, telemetry, GPS, RFID, habitat use</strong></h3>
         <strong> Relocation of animals: </strong>
         Finding the location of animals can be done via a diversity of methods such as Very High Frequency (VHF) radio waves emitters, Global Positioning System (GPS), semi-automated data collection using <a href="https://motus.org"> MOTUS Wildlefe Tracking System</a> and other techniques. It is recommanded to look at the "*Space and habitat use characterization*" section of the <view>Tracking</view> to learn about *Home ranges*, *Habitat use*, and *Non-conventional approaches for space use*. I. Bartomeus <a href="https://gist.github.com/ibartomeus/cdddca21d5dbff26a25e">has a page</a> in which preference indicies calculations in R are demonstrated.
         <ul>
-          <li><a href="https://github.com/cppeck/razimuth">razimuth</a>: (Gerber et al. 2018)</li>
-          <li><a href="https://github.com/cran/sigloc">sigloc</a>: The sigloc (Signal Location Estimation; Berg 2015) package is now <a href="https://cran.r-project.org/package=sigloc">archived</a> on the CRAN. </li>
-          <li><a href="https://github.com/jmsigner/rhr">rhr</a>: reproducible home range analysis with R (Signer and Balkenhol 2015)</li>
+          <li><a href="https://github.com/steffilazerte/cavityuse">Determine cavity use from geolocator light data</a></li>
           <li><pkg>ctmm</pkg>:  (Calabrese, Fleming and Gurarie 2016)</li>
+          <li><a href="https://github.com/animalnexus/feedr">feedr</a></li>
+          <li><a href="https://github.com/cppeck/razimuth">razimuth</a>: (Gerber et al. 2018)</li>
           <li><pkg>ResourceSelection</pkg>:  (Lele and Keim 2006; Lele 2009; Sólymos and Lele 2016)</li>
+          <li><a href="https://github.com/jmsigner/rhr">rhr</a>: reproducible home range analysis with R (Signer and Balkenhol 2015)</li>
+          <li><a href="https://github.com/cran/sigloc">sigloc</a>: The sigloc (Signal Location Estimation; Berg 2015) package is now <a href="https://cran.r-project.org/package=sigloc">archived</a> on the CRAN. </li>
           <li><a href="https://github.com/MotusWTS/motus">Motus</a>. The Motus book can be <a href="https://beta.motus.org/MotusRBook/">seen from this link</a></li>
         </ul>
       
@@ -61,6 +73,8 @@
 
       <h3><strong>Population dynamics</strong></h3>
         <ul>
+        <li><pkg>Distance</pkg>:</li>
+        <li><pkg>dsm</pkg>:</li>
         </ul>
 
         <h3><strong>Spatial analysis</strong></h3>
@@ -75,11 +89,12 @@
       <h3><strong>Data</strong></h3>
         <ul>
         <li><a href="https://ebird.org/science">eBird data</a>. <pkg>ebirdst</pkg> is a package that allows access and analyze eBird status and trends data</li>
-        <li><a href="https://www.inaturalist.org/pages/how+can+i+use+it">iNaturalist</a></li>
-        <li><a href="https://www.gbif.org">gbif</a></li>
+        <li><a href="https://github.com/MotusWTS/motus">Motus Wildlife Tracking System</a> and <a href="https://github.com/MotusWTS/motusdata">Motus datasets</a> </li>
+        <li><a href="https://github.com/birdstudiescanada/naturecounts">naturecounts:</a> Get observations from<a href="https://www.birdscanada.org/birdmon/default/main.jsp">NatureCounts</a></li>
         <li><a href="https://observation.org">Observation.org</a></li> (In development)
-        <li><a href="https://www.birdscanada.org/birdmon/default/main.jsp">NatureCounts</a></li>
-        <li><a href="https://www.pauljhurtado.com/US_Composite_Radar/">Archive of radar images in the U.S.</a></li>
+        <li><a href="https://www.pauljhurtado.com/US_Composite_Radar/">Radar images archive in the U.S.</a></li>
+        <li><pkg>rgbif</pkg>: Global Biodiversity Information Facility <a href="https://www.gbif.org">(gbif)</a> data access with an API</li>
+        <li><pkg>rinat</pkg>: <a href="https://www.inaturalist.org/pages/how+can+i+use+it">iNaturalist</a> data access through an API</li>
         </ul>
 
 
@@ -126,25 +141,35 @@
       <pkg>bSims</pkg>
       <pkg>birdring</pkg>
       <pkg>ctmm</pkg>
+      <pkg>Distance</pkg>
+      <pkg>dsm</pkg>
       <pkg>ebirdst</pkg>
       <pkg>flying</pkg>
       <pkg>FlyingR</pkg>
+      <pkg>marked</pkg>
       <pkg>MixSIAR</pkg>
       <pkg>monitoR</pkg>
       <pkg>moult</pkg>
       <pkg>moveWindSpeed</pkg>
+      <pkg>mrds</pkg>
+      <pkg>nimbleSCR</pkg>
       <pkg>openCR</pkg>
       <pkg>osmdata</pkg>
       <pkg>patchwork</pkg>
+      <pkg>PresenceAbsence</pkg>
       <pkg>R2ucare</pkg>
       <pkg>raster</pkg>
       <pkg>rAvis</pkg>
+      <pkg>Rcapture</pkg>
       <pkg>rebird</pkg>
       <pkg>ResourceSelection</pkg>
+      <pkg>rinat</pkg>
       <pkg>rjags</pkg>
+      <pkg>rgbif</pkg>
       <pkg>RMark</pkg>
       <pkg>rredlist</pkg>
       <pkg>rstan</pkg>
+      <pkg>secr</pkg>
       <pkg>seewave</pkg>
       <pkg>sf</pkg>
       <pkg>SongEvo</pkg>
@@ -153,14 +178,15 @@
       <pkg>tidyverse</pkg>
       <pkg>tmap</pkg>
       <pkg>tuneR</pkg>
+      <pkg>unmarked</pkg>
       <pkg>weathercan</pkg>
       <pkg>wildlifeDI</pkg>
     </packagelist>
 
 
-
     <links>
       <view>Bayesian</view>
+      <view>Cluster</view>
       <view>Databases</view>
       <view>Environmetrics</view>
       <view>Genetics</view>
@@ -173,11 +199,6 @@
       <view>TimeSeries</view>
       <view>Tracking</view>
       <a href="https://github.com/animalnexus/">Animalnexus project: Tools for animal movement using RFID</a>
-      <a href="https://github.com/ropensci/rinat">rinat: Access iNaturalist data with R</a>
-      <a href="https://github.com/birdstudiescanada/naturecounts">Get observations from NatureCounts</a>
-      <a href="https://github.com/MotusWTS/motus">Motus Wildlife Tracking System</a> 
-      <a href="https://github.com/MotusWTS/motusdata">Motus datasets</a>
-      <a href="https://github.com/steffilazerte/cavityuse">Determine cavity use from geolocator light data</a>
     </links>
 
 </CRANTaskView>
