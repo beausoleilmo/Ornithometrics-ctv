@@ -38,6 +38,7 @@
       <li><a href="#datasect">Datasets and atlases</a></li>
       <li><a href="#researchmis">Research miscellaneous</a></li>
       <li><a href="#references">References</a></li>
+      <li><a href="#contributors">Contributors</a></li>
     </ul>
     </section>
 
@@ -294,8 +295,21 @@
         <li> </li>
         </ul>
     </section>
-
-    </info>
+    
+ <!-- ################################### -->
+ <!-- ###### PUBLICATIONS WITH R CODE ### -->
+ <!-- ################################### -->
+ 
+ <!-- ################################### -->
+ <!-- ###### CONTRIBUTORS ############### -->
+ <!-- ################################### -->
+    <section id="contributors">
+      <h3><strong>Contributors</strong></h3>
+        <p>Marc-Olivier Beausoleil</p>
+    </section>
+ 
+ 
+     </info>
 
  <!-- ################################### -->
  <!-- ###### PACKAGE LIST FROM CRAN ##### -->
