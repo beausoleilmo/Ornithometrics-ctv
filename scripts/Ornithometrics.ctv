@@ -46,12 +46,12 @@
     <section id="commacoustic">
       <h3><strong>Communication and acoustic analysis</strong></h3>
         <ul>
-          <li><pkg>monitoR</pkg> (Hafner and Katz 2018)</li>
-          <li><pkg>SongEvo</pkg> (Danner et al. 2019)</li>
-          <li><pkg>soundecology</pkg> (Villanueva-Rivera and Pijanowski 2018)</li>
-          <li><pkg>seewave</pkg> (Sueur, Aubin and Simonis 2008)</li>
-          <li><pkg>tuneR</pkg> (Ligges et al. 2018)</li>
-          <li><a href="https://github.com/maRce10/warbleR">warbleR</a>: Github package to analyse the structure of animal acoustic signals. (Araya-Salas and Smith-Vidaurre 2017)</li>
+          <li><pkg>monitoR</pkg> is a package for bioacoustic detection and monitoring (Hafner and Katz 2018). With the help of <code>viewSpec()</code>, sound files can be viewed as spectrograms. You might want to try setting the player to playback audio to <code>setWavPlayer("afplay")</code> on Mac or <code>setWavPlayer("rhythm-box")</code> on Ubuntu. You might be interested in the <a href="https://code.usgs.gov/vtcfwru/ammonitor">AMMonitor</a> package as well.</li>
+          <li><pkg>SongEvo</pkg> contains functions to simulate (function <code>SongEvo()</code>) cultural evolution in bird song (Danner et al. 2019)</li>
+          <li><pkg>soundecology</pkg> allows the calculation of a wide array of acoustic indices such as the acoustic Complexity Index (ACI), the Normalized Difference Soundscape Index (NDSI), and Acoustic Diversity and Evenness indices (ADI and AEI) (Villanueva-Rivera and Pijanowski 2018)</li>
+          <li><pkg>seewave</pkg> includes a vast library of functions to generate and analyse sound (Sueur, Aubin and Simonis 2008). The book Sound analysis and synthesis with R is a resource that will let you explore multiple of its functionalities (Sueur 2018).</li>
+          <li><pkg>tuneR</pkg> allows the analysis of sound (Ligges et al. 2018)</li>
+          <li><a href="https://github.com/maRce10/warbleR">warbleR:</a> Github package to analyse the structure of animal acoustic signals and extract acoustic parameters, vizualize spectrograms, apply batch processes and more (Araya-Salas and Smith-Vidaurre 2017). The <code>query_xc()</code> function can search and download sounds from <a href="https://www.xeno-canto.org">Xeno-canto.</a></li>
         </ul>
     </section>
       
@@ -171,6 +171,7 @@
         <li><a href="https://partnersinflight.org/what-we-do/science/databases/">Partners in Flight (PIF) databases</a></li>
         <li><a href="https://vtecostudies.org/projects/mountains/mountain-birdwatch/">Vermont Center for Ecostudies databases</a></li>
         <li><pkg>weathercan</pkg> (LaZerte and Albers 2018)</li>
+        <li><a href="https://www.xeno-canto.org">Xeno-canto database</a>. The <a href="https://github.com/maRce10/warbleR">warbleR</a> package can streamline the utilization of the data found on the server.</li>
         
         </ul>
       
@@ -286,6 +287,7 @@
         <li> Stock, B. C., and B. X. Semmens. 2016. MixSIAR GUI User Manual. https://github.com/brianstock/MixSIAR. </li>
         <li> Strimas-Mackey, M., E. Miller, and W. M. Hochachka. 2018. auk: eBird Data Extraction and Processing with AWK. https://cornelllabofornithology.github.io/auk/.</li>
         <li> Sueur, J., T. Aubin, and C. Simonis. 2008. Seewave: a free modular tool for sound analysis and synthesis. Bioacoustics 18:213–226.</li>
+        <li> Sueur, J. 2018. Sound analysis and synthesis with R. Pages 1–682. Springer, Cham.</li>
         <li> Sutherland, C., J. A. Royle, and D. W. Linden. 2019. oSCR: a spatial capture–recapture R package for inference about spatial ecological processes. Ecography 42:1459–1469.</li>
         <li> Tennekes, M. 2018. tmap: Thematic maps in R. Journal of Statistical Software 84:1–39.  </li>
         <li> van de Pol, M., L. D. Bailey, N. McLean, L. Rijsdijk, C. R. Lawson, and L. Brouwer. 2016. Identifying the best climatic predictors in ecology and evolution. Methods in Ecology and Evolution 7:1246–1257. </li>
