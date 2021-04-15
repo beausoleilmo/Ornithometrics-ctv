@@ -24,7 +24,7 @@
       </p>
 
       <p>
-        This tasks view is made to encourage researchers to work with ornithological data and adopt best practices. Effort was made to cite all the packages as accuratly as possible (see <a href="#references">reference</a> section). In addition, there are resource sections that include Atlases from various countries, states and provinces, but also links to databases that researchers can explore or use to answer questions in ornithology (see the section titled <a href="#datasect">Datasets and atlases</a>). All references were exported in the style of journal "Ecology". The references do not include the version of the R packages, but it is highly encouraged to do so when citing packages (<code>citation(package = "package_name")</code>).
+        This task view is made to encourage researchers to work with ornithological data and adopt best practices. Effort was made to cite all the packages as accurately as possible (see <a href="#references">reference</a> section). In addition, there are resource sections that include Atlases from various countries, states and provinces, but also links to databases that researchers can use to answer questions in ornithology (see the section titled <a href="#datasect">Datasets and atlases</a>). All references were exported in the style of journal "Ecology". The references do not include the version of the R packages, but it is highly encouraged to do so when citing packages (<code>citation(package = "package_name")</code>).
       </p>
 
       <p>
@@ -54,21 +54,21 @@
     <section id="commacoustic">
       <h3><strong>Communication and acoustic analysis</strong></h3>
         <ul>
-          <li><pkg>monitoR</pkg> is a package for bioacoustic detection and monitoring (Hafner and Katz 2018). With the help of <code>viewSpec()</code>, sound files can be viewed as spectrograms. You might want to try setting the player to playback audio to <code>setWavPlayer("afplay")</code> on Mac or <code>setWavPlayer("rhythm-box")</code> on Ubuntu. You might be interested in the <a href="https://code.usgs.gov/vtcfwru/ammonitor">AMMonitor</a> package as well.</li>
+          <li><pkg>monitoR</pkg> is a package for bioacoustics detection and monitoring (Hafner and Katz 2018). With the help of <code>viewSpec()</code>, sound files can be viewed as spectrograms. You might want to try setting the player to playback audio to <code>setWavPlayer("afplay")</code> on Mac or <code>setWavPlayer("rhythm-box")</code> on Ubuntu. You might be interested in the <a href="https://code.usgs.gov/vtcfwru/ammonitor">AMMonitor</a> package as well.</li>
           <li><pkg>SongEvo</pkg> contains functions to simulate (function <code>SongEvo()</code>) cultural evolution in bird song (Danner et al. 2019)</li>
           <li><pkg>soundecology</pkg> allows the calculation of a wide array of acoustic indices such as the acoustic Complexity Index (ACI), the Normalized Difference Soundscape Index (NDSI), and Acoustic Diversity and Evenness indices (ADI and AEI) (Villanueva-Rivera and Pijanowski 2018)</li>
           <li><pkg>seewave</pkg> includes a vast library of functions to generate and analyse sound (Sueur, Aubin and Simonis 2008). The book Sound analysis and synthesis with R is a resource that will let you explore multiple of its functionalities (Sueur 2018).</li>
           <li><pkg>tuneR</pkg> allows the analysis of sound (Ligges et al. 2018)</li>
-          <li><a href="https://github.com/maRce10/warbleR">warbleR:</a> Github package to analyse the structure of animal acoustic signals and extract acoustic parameters, vizualize spectrograms, apply batch processes and more (Araya-Salas and Smith-Vidaurre 2017). The <code>query_xc()</code> function can search and download sounds from <a href="https://www.xeno-canto.org">Xeno-canto.</a></li>
+          <li><a href="https://github.com/maRce10/warbleR">warbleR:</a> Github package to analyse the structure of animal acoustic signals and extract acoustic parameters, visualize spectrograms, apply batch processes and more (Araya-Salas and Smith-Vidaurre 2017). The <code>query_xc()</code> function can search and download sounds from <a href="https://www.xeno-canto.org">Xeno-canto.</a></li>
         </ul>
     </section>
       
     <section id="conserv">
       <h3><strong>Conservation</strong></h3>
         <ul>
-          <li><pkg>acmeR</pkg> is designed for calculation of Avian and Chiropteran (bat) Mortality Estimators (ACME) by wind turbines (Wolpert and Coleman 2015). You might be intersted in the <pkg>carcass</pkg> package which implements more function for estimation of fatalities from collisions with human-made constructions (Korner-Nievergelt et al. 2015)</li>
+          <li><pkg>acmeR</pkg> is designed for calculation of Avian and Chiropteran (bat) Mortality Estimators (ACME) by wind turbines (Wolpert and Coleman 2015). You might be interested in the <pkg>carcass</pkg> package which implements more functions for estimation of fatalities from collisions with human-made constructions (Korner-Nievergelt et al. 2015)</li>
           <li><pkg>rredlist</pkg>: provided you requested and have an API key, the package allows access to the IUCN red list data (Chamberlain 2020)</li>
-          <li> There is no specific package for long term studies, but you might be interested in looking into the <view>TimeSeries</view> task view.</li>
+          <li> There is no specific package for long-term studies, but you might be interested in looking into the <view>TimeSeries</view> task view.</li>
         </ul>
     </section>
         
@@ -106,7 +106,7 @@
     <section id="moveco">
       <h3><strong>Movement ecology, navigation, telemetry, GPS, RFID, habitat use</strong></h3>
         <strong> Relocation of animals: </strong>
-        Finding the location of animals can be done via a diversity of methods such as Very High Frequency (VHF) radio waves emitters, Global Positioning System (GPS), semi-automated data collection using <a href="https://motus.org"> MOTUS Wildlefe Tracking System</a> and other techniques. It is recommanded to look at the <i>"Space and habitat use characterization"</i> section of the <view>Tracking</view> to learn about <i>Home ranges,</i> <i>Habitat use,</i> and <i>Non-conventional approaches for space use.</i> I. Bartomeus <a href="https://gist.github.com/ibartomeus/cdddca21d5dbff26a25e">has a page</a> in which preference indicies calculations in R are demonstrated.
+        Finding the location of animals can be done via a diversity of methods such as Very High Frequency (VHF) radio waves emitters, Global Positioning System (GPS), semi-automated data collection using <a href="https://motus.org"> MOTUS Wildlefe Tracking System</a> and other techniques. It is recommended to look at the <i>"Space and habitat use characterization"</i> section of the <view>Tracking</view> to learn about <i>Home ranges,</i> <i>Habitat use,</i> and <i>Non-conventional approaches for space use.</i> I. Bartomeus <a href="https://gist.github.com/ibartomeus/cdddca21d5dbff26a25e">has a page</a> in which preference indexes calculations in R are demonstrated.
         <ul>
           <li><pkg>adehabitatHR</pkg>: Home Range Estimation (Calenge 2006)</li>
           <li><pkg>adehabitatHS</pkg>: Analysis of Habitat Selection by Animals (Calenge 2006)</li>
@@ -129,7 +129,7 @@
     <section id="phylogeno">
       <h3><strong>Phylogeny</strong></h3>
         <ul>
-          <li><view>Phylogenetics</view>: task view on phylogenetics which includes packages to draw trees, functions to manipulate tress, model and simulate data, calculate divergence times, make inferences, and much more. There are even package about community and microbial ecology which might be intesting if one wants to study the gut microbiome of birds. </li>
+          <li><view>Phylogenetics</view>: task view on phylogenetics which includes packages to draw trees, functions to manipulate tress, model and simulate data, calculate divergence times, make inferences, and much more. There are even packages about community and microbial ecology which might be interesting if one wants to study the gut microbiome of birds. </li>
           <li><pkg>adephylo</pkg>: Exploratory Analyses for the Phylogenetic Comparative Method (Jombart, Balloux and Dray 2010)</li>
           <li><a href="https://github.com/ropensci/phylotaR">phylotaR</a>: Retrieval of orthologous DNA from GenBank (Bennett et al. 2018)</li>
           <li><pkg>taxize</pkg>: (Chamberlain and Szocs 2013; Chamberlain et al. 2020)</li>
@@ -171,7 +171,7 @@
         <ul>
           <li><a href="https://www.worldclim.org/data/bioclim.html">Bioclimatic data from WorldClim</a>. (Fick and Hijmans 2017)</li>
           <li><a href="https://www.pwrc.usgs.gov/bbs/">Breeding bird survey</a>. The Breeding bird survey (BBS) which can be analysed with the <pkg>bbsBayes</pkg> package (Edwards and Smith 2020)</li>
-          <li><a href="https://ebird.org/science">eBird data</a>. <pkg>ebirdst</pkg> is a package that allows access and analyze eBird status and trends data (eBird 2021). You can also use the <pkg>auk</pkg> package to directly process the data from eBird if you requested access to the data (Strimas-Mackey, Miller and Hochachka 2018). The package <pkg>rebird</pkg> allows to interface the eBird database in R (Maia et al. 2021)</li>
+          <li><a href="https://ebird.org/science">eBird data</a>. <pkg>ebirdst</pkg> is a package that allows access and analyze eBird status and trends data (eBird 2021). You can also use the <pkg>auk</pkg> package to directly process the data from eBird if you requested access to the data (Strimas-Mackey, Miller and Hochachka 2018). The package <pkg>rebird</pkg> allows interfacing the eBird database in R (Maia et al. 2021)</li>
           <li><a href="https://euring.org">Euring</a> data can be read and processed using the <pkg>birdring</pkg> package (Korner-Nievergelt and Robinson 2014)</li>
           <li><a href="https://github.com/MotusWTS/motus">Motus Wildlife Tracking System</a> and <a href="https://github.com/MotusWTS/motusdata">Motus datasets</a> (Birds Canada 2019)</li>
           <li><a href="https://github.com/birdstudiescanada/naturecounts">naturecounts:</a> Get observations from<a href="https://www.birdscanada.org/birdmon/default/main.jsp">NatureCounts</a> (Birds Studies Canada 2018)</li>
@@ -195,7 +195,7 @@
           <li>Maritime Provinces: <a href="https://www.mba-aom.ca/jsp/toc.jsp">Online Breeding Birds of the Maritime Provinces.</a> The data of the book can be <a href="https://www.mba-aom.ca/jsp/map.jsp">accessed here.</a></li>
           <li>Newfoundland: <a href="https://nf.birdatlas.ca">Newfoundland Breeding Bird Atlas.</a></li>
           <li>Ontario: <a href="https://www.birdsontario.org">Ontario Breeding Bird Atlas.</a></li>
-          <li>Québec: <a href="https://atlas-oiseaux.qc.ca/acces_data_fr.jsp">Atlas des oiseaux nicheurs du Québec.</a> The data can be aquired if you communicate with the person in the contact information on the website.</li>
+          <li>Québec: <a href="https://atlas-oiseaux.qc.ca/acces_data_fr.jsp">Atlas des oiseaux nicheurs du Québec.</a> The data can be acquired if you communicate with the person in the contact information on the website.</li>
           <li>Saskatchewan: <a href="https://sk.birdatlas.ca">Saskatchewan Breeding Bird Atlas.</a></li>
         </ul>
       <p>Europe</p>
