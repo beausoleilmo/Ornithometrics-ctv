@@ -15,9 +15,12 @@
  <!-- ################################### -->
   <info>
     <h3><strong>Introduction</strong></h3>
-
+      
       <p> 
-        The study of ornithology is vast and multidisciplinary in essence. Thus, this "Ornithometrics" (<i>*ornitho-*</i>; 'bird' and <i>*-metric*</i>; 'relating to measurement') task view contains a collection of packages that can process data taken from birds or the environmental variables that are in association with bird activities. The headers of the <a href="#toc">table of content</a> were made to facilitate navigation, but some packages might fall in multiple categories. Other <i>task views</i> could be consulted for broader coverage of topics including ecology and environment (<view>Environmetrics</view>) and spatial analysis (<view>Spatial</view>).
+      <img alt="CTV Icon" align="right" src="images/ornitho_logo.png" width="100"></img>
+      </p> 
+      <p> 
+        The study of ornithology is vast and multidisciplinary in essence. Thus, this "Ornithometrics" (<i>*ornitho-*</i>; 'bird' and <i>*-metric*</i>; 'relating to measurement') task view contains a collection of packages that can process data taken from birds or the environmental variables that are in association with bird activities. The headers of the <a href="#toc">table of content</a> were made to facilitate navigation, but some packages might fall in multiple categories. Other <i>task views</i> could be consulted for broader coverage of topics including ecology and environment (known as the <view>Environmetrics</view> task view) and spatial analysis (which can be found in the <view>Spatial</view> task view).
       </p>
 
       <p> 
@@ -470,20 +473,21 @@
  <!-- ###### ADDITIONAL LINKS ########### -->
  <!-- ################################### -->
     <links>
-      <view>Bayesian</view>
-      <view>Cluster</view>
-      <view>Databases</view>
-      <view>Environmetrics</view>
-      <view>Genetics</view>
-      <view>Multivariate</view>
-      <view>Phylogenetics</view>
-      <view>ReproducibleResearch</view>
-      <view>Spatial</view>
-      <view>SpatioTemporal</view>
-      <view>Survival</view>
-      <view>TimeSeries</view>
-      <view>Tracking</view>
+      <view>Bayesian</view> 
+      <view>Cluster</view> 
+      <view>Databases</view> 
+      <view>Environmetrics</view> 
+      <view>Genetics</view> 
+      <view>Multivariate</view> 
+      <view>Phylogenetics</view> 
+      <view>ReproducibleResearch</view> 
+      <view>Spatial</view> 
+      <view>SpatioTemporal</view> 
+      <view>Survival</view> 
+      <view>TimeSeries</view> 
+      <view>Tracking</view> 
       <a href="https://github.com/animalnexus/">Animalnexus project: Tools for animal movement using RFID</a>
+      <a href="https://github.com/benmarwick/ctv-archaeology">Archaeology CTV</a>
     </links>
 
 </CRANTaskView>
