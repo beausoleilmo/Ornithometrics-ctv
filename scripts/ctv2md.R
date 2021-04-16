@@ -29,7 +29,9 @@ writeLines(tx2, con=ctvfile)
 check_ctv_packages(ctvfile)             # run the check
 
 ## create html file from ctv file
-ctv2html(read.ctv(ctvfile), htmlfile)
+x = read.ctv(ctvfile)
+
+ctv2html(x = read.ctv(ctvfile), file = htmlfile, css = "../CRAN_web.css", packageURL = "../packages/", reposname = "CRAN")
 
 ### these look atrocious, but are pretty straight forward. read them one by one
 ###  - start from the htmlfile
@@ -45,13 +47,19 @@ cmd <- paste0("cat ", htmlfile,
               "-e's|../packages/|http://cran.rstudio.com/web/packages/|g' ",
               ###  - write out mdfile
               "> ", mdfile)
-
+# output a markdown file 
 system(cmd)                             # run the conversion
 
 unlink(htmlfile)                        # remove temporary html file
 
+# Correct the "Related links" sections... 
+system("scripts/modMD.sh ~/Github_proj/Ornithometrics-ctv/CTVmd.md ~/Github_proj/Ornithometrics-ctv/CTVmdmod.md ")
+
 cat("Done.\n")
 
-rmarkdown::render(mdfile, "html_document", 
+mdfilemod   <- "CTVmdmod.md"
+rmarkdown::render(input = mdfilemod, 
+                  output_format = "html_document", 
+                  output_file = "Ornithometrics",
                   output_options = list(pandoc_args = c("--metadata=title:Ornithometrics")))
 
