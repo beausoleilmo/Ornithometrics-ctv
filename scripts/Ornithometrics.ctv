@@ -117,21 +117,21 @@
           <li><pkg>dismo</pkg> (Hijmans et al. 2020) and <a href="https://github.com/johnbaums/rmaxent">rmaxent</a> (Baumgartner and Wilson 2017)</li>
           <li><pkg>diveMove</pkg> processes time-depth recorder (TDR) data (Luque 2007) </li>
           <li><a href="https://github.com/animalnexus/feedr">feedr</a> (LaZerte 2021)</li>
+          <li> <pkg>FLightR</pkg> Spatio-temporal relocation of animals using light geolocators (Rakhimberdiev et al. 2015; Rakhimberdiev et al. 2016; Rakhimberdiev et al. 2017; Rakhimberdiev and Saveliev 2020)</li>
           <li><pkg>GeoLight</pkg> location of animals using light intensity measurements over time (Lisovski and Hahn 2012) </li>
           <li><a href="https://github.com/dbspitz/migrateR">migrateR</a>: animal movement behavior analysis (Spitz 2019)</li>
           <li><pkg>momentuHMM</pkg> allows animal movement analysis using hidden Markov models (McClintock and Michelot 2018)</li>
           <li><a href="https://github.com/MotusWTS/motus">Motus</a>. The Motus book can be <a href="https://beta.motus.org/MotusRBook/">seen from this link</a> (Brzustowski and Lepage 2021)</li>
           <li> <pkg>moveWindSpeed</pkg>: Estimate wind speeds from bird trajectories (Kranstauber and Weinzierl 2019)</li>
+          <li><a href="https://github.com/benjamin-merkel/probGLS">probGLS</a> probabilistic algorithm for geolocation data (Merkel 2021)</li>
           <li><a href="https://github.com/cppeck/razimuth">razimuth</a>: (Gerber et al. 2018)</li>
           <li><pkg>ResourceSelection</pkg>:  (Lele and Keim 2006; Lele 2009; Sólymos and Lele 2016)</li>
           <li><a href="https://github.com/jmsigner/rhr">rhr</a>: reproducible home range analysis with R (Signer and Balkenhol 2015)</li>
-          <li><a href="https://github.com/cran/sigloc">sigloc</a>: The sigloc (Signal Location Estimation; Berg 2015) package is now <a href="https://cran.r-project.org/package=sigloc">archived</a> on the CRAN. </li>
           <li><a href="https://github.com/allisonglider/seabiRds">seabiRds</a> (Patterson 2021) </li>
-          <li><a href="https://github.com/slisovski/TwGeos">TwGeos</a>. light-level geolocation (Lisovski, Wotherspoon and Sumner 2016)</li>
-          <li><a href="https://github.com/benjamin-merkel/probGLS">probGLS</a> probabilistic algorithm for geolocation data (Merkel 2021)</li>
-          <li> <pkg>wildlifeDI</pkg> (Long et al. 2014)</li>
           <li><a href="https://github.com/SWotherspoon/SGAT">SGAT</a> for animal geolocation data (Sumner, Wotherspoon and Hindell 2009; Lisovski and Hahn 2012)</li>
-          <li> <pkg>FLightR</pkg> Spatio-temporal relocation of animals using light geolocators (Rakhimberdiev et al. 2015; Rakhimberdiev et al. 2016; Rakhimberdiev et al. 2017; Rakhimberdiev and Saveliev 2020)</li>
+          <li><a href="https://github.com/cran/sigloc">sigloc</a>: The sigloc (Signal Location Estimation; Berg 2015) package is now <a href="https://cran.r-project.org/package=sigloc">archived</a> on the CRAN. </li>
+          <li><a href="https://github.com/slisovski/TwGeos">TwGeos</a>. light-level geolocation (Lisovski, Wotherspoon and Sumner 2016)</li>
+          <li> <pkg>wildlifeDI</pkg> (Long et al. 2014)</li>
         </ul>
     </section>
 
@@ -157,10 +157,11 @@
     </section>
 
     <section id="popdyn">
-      <h3><strong>Population dynamics and community ecology</strong></h3>
+      <h3><strong>Population dynamics, community ecology, and Evolution</strong></h3>
         <ul>
           <li><pkg>Distance</pkg> (Miller et al. 2019)</li>
           <li><pkg>dsm</pkg> (Miller et al. 2021)</li>
+          <li><pkg>mgcv</pkg> is useful to get fitness landscapes as smooth surface using generalized additive models (Wood 2003, 2004, 2011, 2017; Wood, Pya and Säfken 2016)</li>
           <li><pkg>nicheROVER</pkg>:  <a href="https://cran.r-project.org/web/packages/nicheROVER/vignettes/ecol-vignette.html">Guide for using nicheROVER</a> (Lysy, Stasko and Swanson 2014)</li>
           <li><view>Environmetrics</view></li>
         </ul>
@@ -302,7 +303,7 @@
           <li> Jombart, T. 2008. adegenet: a R package for the multivariate analysis of genetic markers. Bioinformatics 24:1403–1405. </li>
           <li> Jombart, T., F. Balloux, and S. Dray. 2010. adephylo: exploratory analyses for the phylogenetic comparative method. Bioinformatics:1907–1909.</li>
           <li> Jombart, T., and I. Ahmed. 2011. adegenet 1.3-1: new tools for the analysis of genome-wide SNP data 27:3070–3071. </li>
-          <li> Korner-Nievergelt, F., and R. A. Robinson. 2014. Introducing the R-package “birdring.” Ringing & Migration 29:51–61. </li>
+          <li> Korner-Nievergelt, F., and R. A. Robinson. 2014. Introducing the R-package “birdring.” Ringing and Migration 29:51–61. </li>
           <li> Korner-Nievergelt, F., O. Behr, R. Brinkmann, M. A. Etterson, M. M. P. Huso, D. Dalthorp, P. Korner-Nievergelt, T. Roth, and I. Niermann. 2015. Mortality estimation from carcass searches using the R-package carcass—a tutorial. Wildlife Biology 21:30–43. </li>
           <li> Laake, J. L. 2013. RMark: An R Interface for analysis of capture-recapture data with MARK. Page 25 Alaska Fisheries Science Center AFSC processed report 2013-01. Alaska Fish. Sci. Cent., NOAA, Natl. Mar. Fish. Serv. Seattle, WA. </li>
           <li> Laake, J., D. Borchers, L. Thomas, D. Miller, and J. Bishop. 2020. mrds: Mark-Recapture Distance Sampling. https://CRAN.R-project.org/package=mrds. </li>
@@ -360,6 +361,11 @@
           <li> Wickham, H., M. Averick, J. Bryan, W. Chang, L. D. McGowan, R. Francois, G. Grolemund, A. Hayes, L. Henry, J. Hester, M. Kuhn, T. L. Pedersen, E. Miller, S. M. Bache, K. Müller, J. Ooms, D. Robinson, D. P. Seidel, V. Spinu, K. Takahashi, D. Vaughan, C. Wilke, K. Woo, and H. Yutani. 2019. Welcom to the Tidyverse. Journal of Open Source Software 4:1686.</li>
           <li> Wilson, A. J., D. Réale, M. N. Clements, M. M. Morrissey, E. Postma, C. A. Walling, L. E. B. Kruuk, and D. H. Nussey. 2010. An ecologist's guide to the animal model. The Journal of animal ecology 79:13–26. </li>
           <li> Wolpert, R., and J. Coleman. 2015. acmeR: Implements ACME estimator of bird and bat mortality by windturbines. https://CRAN.R-project.org/package=acmeR. </li>
+          <li> Wood, S. N. 2003. Thin plate regression splines. Journal of the Royal Statistical Society Series B  65:95–114. </li>
+          <li> Wood, S. N. 2004. Stable and Efficient Multiple Smoothing Parameter Estimation for Generalized Additive Models. Journal of the American Statistical Association 99:673–686. </li>
+          <li> Wood, S. N. 2011. Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models. Journal of the Royal Statistical Society Series B 73:3–36. </li>
+          <li> Wood, S. N. 2017. Generalized additive models: An introduction with R. Pages 1–497. Second edition. Chapman and Hall/CRC Press, Boca Raton, Florida. </li>
+          <li> Wood, S. N., N. Pya, and B. Säfken. 2016. Smoothing Parameter and Model Selection for General Smooth Models. Journal of the American Statistical Association 111:1548–1575. </li>
           <li> Wotherspoon, S., M. Sumner, and S. Lisovski. 2016. BAStag: Basic data processing for light based geolocation archival tags. </li>
         </ul>
     </section>
@@ -413,6 +419,7 @@
       <pkg>lme4</pkg>
       <pkg>marked</pkg>
       <pkg>MCMCglmm</pkg>
+      <pkg>mgcv</pkg>
       <pkg>MixSIAR</pkg>
       <pkg>MODIS</pkg>
       <pkg>MODISTools</pkg>
