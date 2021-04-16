@@ -19,6 +19,13 @@ r <- getOption("repos")                 # set CRAN mirror
 r["CRAN"] <- "http://cran.rstudio.com"
 options(repos=r)
 
+# Make sure that there is NO "&" sign. 
+tx  <- readLines(ctvfile)
+pattern = '&'
+replace = 'and'
+tx2  <- gsub(pattern = pattern, replace = replace, x = tx)
+writeLines(tx2, con=ctvfile)
+
 check_ctv_packages(ctvfile)             # run the check
 
 ## create html file from ctv file
