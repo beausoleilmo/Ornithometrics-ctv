@@ -20,7 +20,11 @@
       <img alt="CTV Icon" align="right" src="images/ornitho_logo.png" width="100"></img>
       </p> 
       <p> 
-        The study of ornithology is vast and multidisciplinary in essence. Thus, this "Ornithometrics" (<i>*ornitho-*</i>; 'bird' and <i>*-metric*</i>; 'relating to measurement') task view contains a collection of packages that can process data taken from birds or the environmental variables that are in association with bird activities. The headers of the <a href="#toc">table of content</a> were made to facilitate navigation, but some packages might fall in multiple categories. Other <i>task views</i> could be consulted for broader coverage of topics including ecology and environment (known as the <view>Environmetrics</view> task view) and spatial analysis (which can be found in the <view>Spatial</view> task view).
+        The study of ornithology is vast and multidisciplinary in essence. Thus, this "Ornithometrics" (<i>*ornitho-*</i>; 'bird' and <i>*-metric*</i>; 'relating to measurement') task view contains a collection of packages that can process data taken from birds or the environmental variables that are in association with bird activities. The word <i>Ornithometrics</i> has been used once to my knowledge in a mathematical journal (Underhill 1989).
+      </p>
+      
+      <p>
+        The headers of the <a href="#toc">table of content</a> were made to facilitate navigation, but bear in mind that some packages might fall in multiple categories. Other <i>task views</i> could be consulted for broader coverage of topics including ecology and environment (known as the <view>Environmetrics</view> task view) and spatial analysis (which can be found in the <view>Spatial</view> task view). The rest of the CRAN task views can be seen <a href="https://cran.rstudio.com/web/views/">here</a>. There are also independent task views for various topics on GitHub. 
       </p>
 
       <p> 
@@ -102,7 +106,7 @@
           <li> <pkg>rjags</pkg> (Plummer 2003) </li>
           <li> <pkg>RMark</pkg> (Laake 2013) </li>
           <li> <pkg>rstan</pkg> (Stan Development Team 2020) </li>
-          <li><a href="https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package">scrbook</a>.</li> 
+          <li><a href="https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package">scrbook</a> (Royle et al. 2020).</li> 
           <li> <pkg>secr</pkg> (Efford 2020)</li>
           <li> <pkg>unmarked</pkg> (Fiske and Chandler 2011)</li>
         </ul>
@@ -243,7 +247,7 @@
           <li><pkg>emmeans</pkg> (Lenth 2021)</li>
           <li>Modeling and model comparison with packages like <pkg>lme4</pkg> (Bates et al. 2015), <pkg>MuMIn</pkg> (Bartoń 2020) and <pkg>AICcmodavg</pkg> (Mazerolle 2020)</li>
           <li><pkg>ggThemeAssist</pkg> (Gross and Ottolinger 2016)</li>
-          <li><a href="https://github.com/elizagrames/litsearchr">litsearchr</a></li>
+          <li><a href="https://github.com/elizagrames/litsearchr">litsearchr</a> (Grames et al. 2019, 2020)</li>
           <li><pkg>patchwork</pkg> (Pedersen 2020)</li>
           <li><pkg>rr2</pkg> (Ives 2018; Ives and Li 2018)</li>
           <li><pkg>tidyverse</pkg> (Wickham et al. 2019)</li>
@@ -297,6 +301,8 @@
           <li> Freeman, E. A., and G. Moisen. 2008. PresenceAbsence: An R package for presence-absence model analysis. Journal of Statistical Software 23:1–31. </li>
           <li> Gerber, B. D., M. B. Hooten, C. P. Peck, M. B. Rice, J. H. Gammonley, A. D. Apa, and A. J. Davis. 2018. Accounting for location uncertainty in azimuthal telemetry data improves ecological inference. Movement Ecology 6:1–14. </li>
           <li> Gimenez, O., J.-D. Lebreton, R. Choquet, and R. Pradel. 2018. R2ucare: An R package to perform goodness-of-fit tests for capture-recapture models. Methods in Ecology and Evolution 9:1749–1754. </li>
+          <li> Grames, E. M., A. N. Stillman, M. W. Tingley, and C. S. Elphick. 2019. An automated approach to identifying search terms for systematic reviews using keyword co-occurrence networks. Methods in Ecology and Evolution 10:1645–1654. </li>
+          <li> Grames, E. M., A. N. Stillman, M. W. Tingley, and C. S. Elphick. 2020. litsearchr: Automated search term selection and search strategy for systematic reviews. https://github.com/elizagrames/litsearchr. </li>
           <li> Gross, C., and P. Ottolinger. 2016. ggThemeAssist: Add-in to Customize “ggplot2” Themes. https://CRAN.R-project.org/package=ggThemeAssist. </li>
           <li> Hadfield, J. D. 2010. MCMC methods for multi-response generalized linear mixed models: The MCMCglmm R package. Journal of Statistical Software 33:1–22. </li>
           <li> Hafner, S. D., and J. Katz. 2018. monitoR: Acoustic template detection in R. http://www.uvm.edu/rsenr/vtcfwru/R/?Page=monitoR/monitoR.htm. </li>
@@ -350,6 +356,7 @@
           <li> Rakhimberdiev, E., D. W. Winkler, E. Bridge, N. E. Seavy, D. Sheldon, T. Piersma, and A. Saveliev. 2015. A hidden Markov model for reconstructing animal paths from solar geolocation loggers using templates for light intensity. Movement Ecology 3:1–15.</li>
           <li> Rakhimberdiev, E., N. R. Senner, M. A. Verhoeven, D. W. Winkler, W. Bouten, and T. Piersma. 2016. Comparing inferences of solar geolocation data against high-precision GPS data: annual movements of a double-tagged black-tailed godwit. Journal of Avian Biology 47:1–8.</li>
           <li> Rivest, L.-P., and S. Baillargeon. 2019. Rcapture: Loglinear Models for Capture-Recapture Experiments. https://CRAN.R-project.org/package=Rcapture</li>
+          <li> Royle, A., R. Chandler, R. Sollmann, and B. Gardner. 2020. scrbook: Companion to the book: Spatial Capture Recapture. https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package.</li>
           <li> Signer, J., and N. Balkenhol. 2015. Reproducible home ranges (rhr): a new, user-friendly R package for analyses of wildlife telemetry data. Wildlife Society Bulletin 39:358–363.</li>
           <li> Sólymos, P. 2019. bSims: Bird Point Count Simulator. https://CRAN.R-project.org/package=bSims.</li>
           <li> Sólymos, P., and S. R. Lele. 2016. Revisiting resource selection probability functions and single-visit methods: clarification and extensions. Methods in Ecology and Evolution 7:196–205.</li>
@@ -364,6 +371,7 @@
           <li> Sutherland, C., J. A. Royle, and D. W. Linden. 2019. oSCR: a spatial capture–recapture R package for inference about spatial ecological processes. Ecography 42:1459–1469.</li>
           <li> Tennekes, M. 2018. tmap: Thematic maps in R. Journal of Statistical Software 84:1–39.  </li>
           <li> Tuck, S. L., H. R. P. Phillips, R. E. Hintzen, J. P. W. Scharlemann, A. Purvis, and L. N. Hudson. 2014. MODISTools - downloading and processing MODIS remotely sensed data in R. Ecology and Evolution 4:4658–4668. </li>
+          <li> Underhill, L. G. 1989. Recent publications in Ornithometrics. The Institute of Mathematical Statistics Bulletin 18:583. </li>
           <li> Villanueva-Rivera, L. J., and B. C. Pijanowski. 2018. soundecology: Soundscape Ecology. https://CRAN.R-project.org/package=soundecology. </li>
           <li> Wickham, H. 2016. ggplot2: Elegant graphics for data analysis. Second edition. Springer-Verlag New York, New York. </li>
           <li> Wickham, H., M. Averick, J. Bryan, W. Chang, L. D. McGowan, R. Francois, G. Grolemund, A. Hayes, L. Henry, J. Hester, M. Kuhn, T. L. Pedersen, E. Miller, S. M. Bache, K. Müller, J. Ooms, D. Robinson, D. P. Seidel, V. Spinu, K. Takahashi, D. Vaughan, C. Wilke, K. Woo, and H. Yutani. 2019. Welcom to the Tidyverse. Journal of Open Source Software 4:1686.</li>
