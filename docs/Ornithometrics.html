@@ -207,9 +207,9 @@ pre code {
 <li><a href="#genet">Genetics</a></li>
 <li><a href="#markrecap">Mark-recapture analysis</a></li>
 <li><a href="#moveco">Movement ecology, navigation, telemetry, GPS, RFID, habitat use</a></li>
-<li><a href="#phylogeno">Phylogenetics</a></li>
-<li><a href="#physio">Physiology, phenology and life histories</a></li>
-<li><a href="#popdyn">Population dynamics</a></li>
+<li><a href="#phylogeno">Phylogeny</a></li>
+<li><a href="#physio">Physiology, phenotype, phenology and life histories</a></li>
+<li><a href="#popdyn">Population dynamics, community ecology, and Evolution</a></li>
 <li><a href="#spatianalysis">Spatial analysis</a></li>
 <li><a href="#datasect">Datasets and atlases</a></li>
 <li><a href="#researchmis">Research miscellaneous</a></li>
@@ -257,11 +257,11 @@ pre code {
 <div id="mark-recapture-analysis" class="section level3">
 <h3><strong>Mark-recapture analysis</strong></h3>
 <ul>
-<li><a href="http://cran.rstudio.com/web/packages/marked/index.html">marked</a> (Laake, Johnson and Conn 2013)</li>
-<li><a href="http://cran.rstudio.com/web/packages/mrds/index.html">mrds</a> (Laake et al. 2020)</li>
-<li><a href="http://cran.rstudio.com/web/packages/multimark/index.html">multimark</a> (McClintock 2015)</li>
-<li><a href="http://cran.rstudio.com/web/packages/nimbleSCR/index.html">nimbleSCR</a> (Bischof et al. 2021)</li>
-<li><a href="http://cran.rstudio.com/web/packages/openCR/index.html">openCR</a> (Efford 2020)</li>
+<li><a href="http://cran.rstudio.com/web/packages/marked/index.html">marked</a> is a package for building mark-recapture model including Cormack-Jolly-Seber (CJS) models, Bayesian Markov Chain Monte Carlo (MCMC) methods, and other kinds of structures (Laake, Johnson and Conn 2013)</li>
+<li><a href="http://cran.rstudio.com/web/packages/mrds/index.html">mrds</a> stands for “Mark-Recapture Distance Sampling” and calculates animal abundances (Laake et al. 2020)</li>
+<li><a href="http://cran.rstudio.com/web/packages/multimark/index.html">multimark</a> includes models, accounting for imperfect detection, that can deal with non-invasive marks from different types of sources (images, fluctuating asymetry in colour patterns), to estimate animal abundance and demographic parameters (McClintock 2015)</li>
+<li><a href="http://cran.rstudio.com/web/packages/nimbleSCR/index.html">nimbleSCR</a> uses <a href="https://r-nimble.org">“nimble”</a> to implement Spatial Capture-Recapture (SCR) and Open Population Spatial Capture-Recapture (OPSCR) models (Bischof et al. 2021)</li>
+<li><a href="http://cran.rstudio.com/web/packages/openCR/index.html">openCR</a>: Open population Capture-Recapture package to fit non-spatiatial ans spatial models (Efford 2020)</li>
 <li><a href="https://github.com/jaroyle/oSCR">oSCR: open spatial capture-recapture</a> . <a href="https://sites.google.com/site/spatialcapturerecapture/oscr-package">A the project webpage</a> has details about tutorials and workshops (Sutherland, Royle and Linden 2019)</li>
 <li><a href="http://cran.rstudio.com/web/packages/PresenceAbsence/index.html">PresenceAbsence</a> (Freeman and Moisen 2008)</li>
 <li><a href="http://cran.rstudio.com/web/packages/R2ucare/index.html">R2ucare</a> (Gimenez et al. 2018)</li>
@@ -283,6 +283,7 @@ pre code {
 <li><a href="http://cran.rstudio.com/web/packages/adehabitatHR/index.html">adehabitatHR</a>: Home Range Estimation (Calenge 2006)</li>
 <li><a href="http://cran.rstudio.com/web/packages/adehabitatHS/index.html">adehabitatHS</a>: Analysis of Habitat Selection by Animals (Calenge 2006)</li>
 <li><a href="http://cran.rstudio.com/web/packages/adehabitatLT/index.html">adehabitatLT</a>: Analysis of Animal Movements (Calenge 2006)</li>
+<li><a href="http://cran.rstudio.com/web/packages/bioRad/index.html">bioRad</a> uses radar imagery to infer animals movement (Dokter et al. 2019)</li>
 <li><a href="https://github.com/steffilazerte/cavityuse">cavityuse:</a> Determine cavity use from geolocator light data (LaZerte 2021)</li>
 <li><a href="http://cran.rstudio.com/web/packages/crawl/index.html">crawl</a> random walk models for animal telemetry data (Johnson et al. 2008; Johnson and London 2018)</li>
 <li><a href="http://cran.rstudio.com/web/packages/ctmm/index.html">ctmm</a>: (Calabrese, Fleming and Gurarie 2016)</li>
@@ -372,7 +373,7 @@ pre code {
 <li><a href="https://github.com/birdstudiescanada/naturecounts">naturecounts:</a> Get observations from <a href="https://www.birdscanada.org/birdmon/default/main.jsp">NatureCounts</a> (Birds Studies Canada 2018)</li>
 <li><a href="https://observation.org">Observation.org</a> (In development)</li>
 <li><a href="https://www.trektellen.org">Trektellen</a> (Trektellen in Dutch means migration‐counting)</li>
-<li><a href="https://www.pauljhurtado.com/US_Composite_Radar/">Radar images archive in the U.S.</a> (Paul J. Hurtado)</li>
+<li><a href="https://www.pauljhurtado.com/US_Composite_Radar/">Radar images archive in the U.S.</a> (Paul J. Hurtado). Consult also the <a href="https://weather.rap.ucar.edu/radar/">National Center for Atmospheric Reasearch</a></li>
 <li><a href="http://cran.rstudio.com/web/packages/rgbif/index.html">rgbif</a>: Global Biodiversity Information Facility <a href="https://www.gbif.org">(gbif)</a> data access with an API (Chamberlain and Boettiger 2017; Chamberlain et al. 2021)</li>
 <li><a href="http://cran.rstudio.com/web/packages/rinat/index.html">rinat</a>: <a href="https://www.inaturalist.org/pages/how+can+i+use+it">iNaturalist</a> data access through an API (Barve and Hart 2021)</li>
 <li><a href="https://partnersinflight.org/what-we-do/science/databases/">Partners in Flight (PIF) databases</a></li>
@@ -453,6 +454,7 @@ pre code {
 <li>Collyer, M. L., and D. C. Adams. 2018. RRPP: An R package for fitting linear models to high‐dimensional data using residual randomization. Methods in Ecology and Evolution 9:1772–1779.</li>
 <li>Collyer, M. L., and D. C. Adams. 2021. RRPP: Linear Model Evaluation with Randomized Residuals in a Permutation Procedure. <a href="https://cran.r-project.org/package=RRPP" class="uri">https://cran.r-project.org/package=RRPP</a>.</li>
 <li>Danner, R., E. Derryberry, G. Derryberry, J. Danner, and D. Luther. 2019. SongEvo: An Individual-Based Model of Bird Song Evolution. <a href="https://CRAN.R-project.org/package=SongEvo" class="uri">https://CRAN.R-project.org/package=SongEvo</a>.</li>
+<li>Dokter, A. M., P. Desmet, J. H. Spaaks, S. Van Hoey, L. Veen, L. Verlinden, C. Nilsson, G. Haase, H. Leijnse, A. Farnsworth, W. Bouten, and J. Shamoun-Baranes. 2019. bioRad: biological analysis and visualization of weather radar data. Ecography 42:852–860.</li>
 <li>eBird. 2021. eBird: An online database of bird distribution and abundance “web application”. eBird, Cornell Lab of Ornithology, Ithaca, New York.</li>
 <li>Edwards, B. P. M., and A. C. Smith. 2020. bbsBayes: An R Package for Hierarchical Bayesian Analysis of North American Breeding Bird Survey Data. bioRxiv:1–25.</li>
 <li>Efford, M. 2020. secr: Spatially explicit capture-recapture models. <a href="https://CRAN.R-project.org/package=secr" class="uri">https://CRAN.R-project.org/package=secr</a>.</li>
@@ -559,6 +561,7 @@ pre code {
 <li><a href="http://cran.rstudio.com/web/packages/AICcmodavg/index.html">AICcmodavg</a></li>
 <li><a href="http://cran.rstudio.com/web/packages/auk/index.html">auk</a></li>
 <li><a href="http://cran.rstudio.com/web/packages/bbsBayes/index.html">bbsBayes</a></li>
+<li><a href="http://cran.rstudio.com/web/packages/bioRad/index.html">bioRad</a></li>
 <li><a href="http://cran.rstudio.com/web/packages/birdring/index.html">birdring</a></li>
 <li><a href="http://cran.rstudio.com/web/packages/bSims/index.html">bSims</a></li>
 <li><a href="http://cran.rstudio.com/web/packages/carcass/index.html">carcass</a></li>
