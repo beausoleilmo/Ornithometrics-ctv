@@ -59,7 +59,7 @@ cat("Done.\n")
 
 mdfilemod   <- "CTVmdmod.md"
 rmarkdown::render(input = mdfilemod, 
-                  output_format = "html_document", 
+                  output_format = "html_document", output_dir = "docs",
                   output_file = "Ornithometrics",
                   output_options = list(pandoc_args = c("--metadata=title:Ornithometrics")))
 
