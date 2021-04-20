@@ -65,3 +65,5 @@ rmarkdown::render(input = mdfilemod,
 
 # Correct the "Related links" sections... 
 system("scripts/add_favicon.sh ~/Github_proj/Ornithometrics-ctv/docs/Ornithometrics.html ~/Github_proj/Ornithometrics-ctv/docs/Ornithometrics1.html")
+
+cat("Done!")
