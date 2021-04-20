@@ -16,12 +16,12 @@ library(ctv)
 
 # Install packages v1 --------------------------------------------------------
 # Add the path from where the Ornithometrics.ctv is found. 
-orni.me.ctv <- read.ctv("scripts/Ornithometrics.ctv")
-orni.me.ctv$repository <- "https://CRAN.R-project.org" ## or another mirror
+ornitho.metrics.ctv <- read.ctv("scripts/Ornithometrics.ctv")
+ornitho.metrics.ctv$repository <- "https://CRAN.R-project.org" ## or another mirror
 # Install from the "install.views" function
-install.views(orni.me.ctv)
+install.views(ornitho.metrics.ctv)
 
 # Install packages v2 --------------------------------------------------------
 # Alernatively, you can load the CTV and 
-orni.me.ctv <- read.ctv("scripts/Ornithometrics.ctv")
-install.packages(orni.me.ctv$packagelist$name)
+ornitho.metrics.ctv <- read.ctv("scripts/Ornithometrics.ctv")
+install.packages(ornitho.metrics.ctv$packagelist$name)

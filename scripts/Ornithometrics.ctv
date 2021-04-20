@@ -17,9 +17,6 @@
     <h3><strong>Introduction</strong></h3>
       
       <p> 
-      <img alt="CTV Icon" align="right" src="images/ornitho_logo.png" width="100"></img>
-      </p> 
-      <p> 
         The study of ornithology is vast and multidisciplinary in essence. Thus, this "Ornithometrics" (<i>*ornitho-*</i>; 'bird' and <i>*-metric*</i>; 'relating to measurement') task view contains a collection of packages that can process data taken on or from birds or the environmental variables that are in association with bird activities. To my knowledge, the word <i>Ornithometrics</i> has been used once in a mathematical journal (Underhill 1989).
       </p>
       
@@ -38,6 +35,10 @@
       <p>
       Please contact me to suggest packages or ideas for this task view.
       </p>
+      
+      <p> 
+      <img alt="CTV Icon" align="right" src="images/ornitho_logo.png" width="100"></img>
+      </p> 
 
     <section id="toc">
     <h4><strong>Table of content</strong></h4>
