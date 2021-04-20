@@ -7,6 +7,5 @@ FILE2=$2
 
 sed -e "/\<head\>/a\\
 \<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"assets/favicon/favicon.ico\"\>" < $FILE > $FILE2
-# \<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"https://github.com/beausoleilmo/Ornithometrics-ctv/blob/main/images/favicon/favicon.ico?\"\>" < $FILE > $FILE2
 
 mv $FILE2 $FILE
