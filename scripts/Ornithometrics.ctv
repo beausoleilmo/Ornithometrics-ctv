@@ -247,7 +247,7 @@
           <li><pkg>ggThemeAssist</pkg> (Gross and Ottolinger 2016)</li>
           <li><a href="https://github.com/elizagrames/litsearchr">litsearchr</a> (Grames et al. 2019, 2020)</li>
           <li><pkg>patchwork</pkg> (Pedersen 2020)</li>
-          <li><pkg>rjags</pkg> is the R interface to Just Another Gibbs Sampler (JAGS) which allows flexibble hierarchical Bayesian model construction (Plummer 2003) </li>
+          <li><pkg>rjags</pkg> is the R interface to Just Another Gibbs Sampler (JAGS) which allows flexible hierarchical Bayesian model construction (Plummer 2003) </li>
           <li><pkg>rr2</pkg> (Ives 2018; Ives and Li 2018)</li>
           <li><pkg>rstan</pkg> can create advanced Bayesian models and has also wrappers (<pkg>rstanarm</pkg>) to implement common statistical methods (Brilleman et al. 2018; Stan Development Team 2020; Goodrich 2020) </li>
           <li><pkg>tidyverse</pkg> (Wickham et al. 2019)</li>
