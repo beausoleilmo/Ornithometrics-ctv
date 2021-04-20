@@ -192,6 +192,7 @@
       Citizen science have much success when it comes to birding. Bird observation through citizen science data is amazingly rich and available to download either by requesting the data or an application programming interface or API access. 
       <h4><strong>Databases</strong></h4>
         <ul>
+          <li><pkg>spocc</pkg> is shown first as it can interface many servers containing data for species occurence. (Chamberlain 2021)</li>
           <li><a href="https://github.com/SWotherspoon/BAStag">BAStag</a>. (Wotherspoon, Sumner and Lisovski 2016)</li>
           <li><a href="https://www.worldclim.org/data/bioclim.html">Bioclimatic data from WorldClim</a>. (Fick and Hijmans 2017)</li>
           <li><a href="https://www.pwrc.usgs.gov/bbs/">Breeding bird survey</a>. The Breeding bird survey (BBS) which can be analysed with the <pkg>bbsBayes</pkg> package (Edwards and Smith 2020)</li>
@@ -282,6 +283,7 @@
           <li> Calabrese, J. M., C. H. Fleming, and E. Gurarie. 2016. ctmm: an R package for analyzing animal relocation data as a continuous-time stochastic process. Methods in Ecology and Evolution 7:1124–1132.</li>
           <li> Calenge, C. 2006. The package “adehabitat” for the R software: A tool for the analysis of space and habitat use by animals. Ecological Modelling 197:516–519. </li>
           <li> Chamberlain, S. 2020. rredlist: “IUCN” Red List Client. https://CRAN.R-project.org/package=rredlist. </li>
+          <li> Chamberlain, S. 2021. spocc: Interface to species occurrence data sources. https://CRAN.R-project.org/package=spocc. </li>
           <li> Chamberlain, S., and C. Boettiger. 2017. R Python, and Ruby clients for GBIF species occurrence data. PeerJ PrePrints:1–32.</li>
           <li> Chamberlain, S., and E. Szöcs. 2013. taxize - taxonomic search and retrieval in R. F1000Research 2:191.</li>
           <li> Chamberlain, S., E. Szöecs, Z. Foster, Z. Arendsee, C. Boettiger, K. Ram, I. Bartomeus, J. Baumgartner, J. ODonnell, J. Oksanen, B. G. Tzovaras, P. Marchand, V. Tran, M. Salmon, G. Li, and M. Grenié. 2020. taxize: Taxonomic information from around the web.</li>
@@ -401,6 +403,7 @@
     <section id="contributors">
       <h3><strong>Contributors</strong></h3>
         <p>Marc-Olivier Beausoleil</p>
+        <p>Beausoleil, Marc-Olivier. 2021. Ornithometrics: a collection of R packages to analyse ornithological data. 10.6084/m9.figshare.14453757</p>
     </section>
  
  
@@ -477,6 +480,7 @@
       <pkg>SongEvo</pkg>
       <pkg>soundecology</pkg>
       <pkg>sp</pkg>
+      <pkg>spocc</pkg>
       <pkg>taxize</pkg>
       <pkg>tidyverse</pkg>
       <pkg>tmap</pkg>
@@ -507,6 +511,9 @@
       <a href="https://github.com/animalnexus/">Animalnexus project: Tools for animal movement using RFID</a>
       <a href="https://github.com/benmarwick/ctv-archaeology">Archaeology CTV</a>
       <a href="http://adn.biol.umontreal.ca/~numericalecology/lex/lexique.html">Statistical Lexicon translated English-French</a>
+      <a href="https://drmattg.github.io/REcol-verse/">Collection of Ecologically-related R packages</a>
+      <a href="https://github.com/qinwf/awesome-R">Collection of popular R packages</a>
+      <a href="https://github.com/erikgahner/awesome-ggplot2">Collection of ggplot2 "extensions"</a>
     </links>
 
 </CRANTaskView>
