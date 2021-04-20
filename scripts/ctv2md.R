@@ -63,3 +63,5 @@ rmarkdown::render(input = mdfilemod,
                   output_file = "Ornithometrics",
                   output_options = list(pandoc_args = c("--metadata=title:Ornithometrics")))
 
+# Correct the "Related links" sections... 
+system("scripts/add_favicon.sh ~/Github_proj/Ornithometrics-ctv/docs/Ornithometrics.html ~/Github_proj/Ornithometrics-ctv/docs/Ornithometrics1.html")
