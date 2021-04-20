@@ -20,7 +20,7 @@
       <img alt="CTV Icon" align="right" src="images/ornitho_logo.png" width="100"></img>
       </p> 
       <p> 
-        The study of ornithology is vast and multidisciplinary in essence. Thus, this "Ornithometrics" (<i>*ornitho-*</i>; 'bird' and <i>*-metric*</i>; 'relating to measurement') task view contains a collection of packages that can process data taken from birds or the environmental variables that are in association with bird activities. The word <i>Ornithometrics</i> has been used once to my knowledge in a mathematical journal (Underhill 1989).
+        The study of ornithology is vast and multidisciplinary in essence. Thus, this "Ornithometrics" (<i>*ornitho-*</i>; 'bird' and <i>*-metric*</i>; 'relating to measurement') task view contains a collection of packages that can process data taken on or from birds or the environmental variables that are in association with bird activities. To my knowledge, the word <i>Ornithometrics</i> has been used once in a mathematical journal (Underhill 1989).
       </p>
       
       <p>
@@ -103,9 +103,7 @@
           <li> <pkg>PresenceAbsence</pkg> (Freeman and Moisen 2008)</li>
           <li> <pkg>R2ucare</pkg> (Gimenez et al. 2018)</li>
           <li> <pkg>Rcapture</pkg> (Rivest and Baillargeon 2019)</li>
-          <li> <pkg>rjags</pkg> (Plummer 2003) </li>
           <li> <pkg>RMark</pkg> (Laake 2013) </li>
-          <li> <pkg>rstan</pkg> (Stan Development Team 2020) </li>
           <li><a href="https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package">scrbook</a> (Royle et al. 2020).</li> 
           <li> <pkg>secr</pkg> (Efford 2020)</li>
           <li> <pkg>unmarked</pkg> (Fiske and Chandler 2011)</li>
@@ -249,7 +247,9 @@
           <li><pkg>ggThemeAssist</pkg> (Gross and Ottolinger 2016)</li>
           <li><a href="https://github.com/elizagrames/litsearchr">litsearchr</a> (Grames et al. 2019, 2020)</li>
           <li><pkg>patchwork</pkg> (Pedersen 2020)</li>
+          <li><pkg>rjags</pkg> is the R interface to Just Another Gibbs Sampler (JAGS) which allows flexibble hierarchical Bayesian model construction (Plummer 2003) </li>
           <li><pkg>rr2</pkg> (Ives 2018; Ives and Li 2018)</li>
+          <li><pkg>rstan</pkg> can create advanced Bayesian models and has also wrappers (<pkg>rstanarm</pkg>) to implement common statistical methods (Brilleman et al. 2018; Stan Development Team 2020; Goodrich 2020) </li>
           <li><pkg>tidyverse</pkg> (Wickham et al. 2019)</li>
           <li><pkg>visreg</pkg> (Breheny and Burchett 2017)</li>
         </ul>
@@ -262,6 +262,7 @@
           <li> Adams, D. C., M. L. Collyer, A. Kaliontzopoulou, and E. K. Baken. 2021. Geomorph: Software for geometric morphometric analyses. https://cran.r-project.org/package=geomorph. </li>
           <li> Appelhans, T., F. Detsch, C. Reudenbach, and S. Woellauer. 2020. mapview: Interactive Viewing of Spatial Data in R.  https://github.com/r-spatial/mapview. </li>
           <li> Araya-Salas, M., and G. Smith-Vidaurre. 2017. warbleR: an r package to streamline analysis of animal acoustic signals. Methods in Ecology and Evolution 8:184–191.</li>
+          
           <li> Baken, E. K., M. L. Collyer, A. Kaliontzopoulou, and D. C. Adams. 2021. gmShiny and geomorph v4.0: new graphical interface and enhanced analytics for a comprehensive morphometric experience. Methods in Ecology and Evolution. </li>
           <li> Bartoń, K. 2020. MuMIn: Multi-Model Inference. https://CRAN.R-project.org/package=MuMIn. </li>
           <li> Barve, V., and E. Hart. 2021. rinat: Access “iNaturalist” Data Through APIs. https://CRAN.R-project.org/package=rinat. </li>
@@ -275,13 +276,11 @@
           <li> Bivand, R., E. J. Pebesma, and V. Gómez-Rubio. 2013. Applied Spatial Data Analysis with R - Second Edition. Springer, New York, NY. </li>
           <li> Boersch-Supan, P. 2021. moultmcmc: Bayesian Inference For Avian Moult Pheology Models. https://github.com/pboesu/moultmcmc. </li>
           <li> Breheny, P., and W. Burchett. 2017. Visualization of regression models using visreg. The R Journal 9:56–71. </li>
+          <li> Brilleman, S. L., M. J. Crowther, M. Moreno-Betancur, J. B. Novik, and R. Wolfe. 2018. Joint longitudinal and time-to-event models via Stan. </li>
           <li> Brzustowski, J., and D. Lepage. 2021. motus: Fetch and use data from the Motus Wildlife Tracking System. https://github.com/MotusWTS/motus. </li>
+          
           <li> Calabrese, J. M., C. H. Fleming, and E. Gurarie. 2016. ctmm: an R package for analyzing animal relocation data as a continuous-time stochastic process. Methods in Ecology and Evolution 7:1124–1132.</li>
           <li> Calenge, C. 2006. The package “adehabitat” for the R software: A tool for the analysis of space and habitat use by animals. Ecological Modelling 197:516–519. </li>
-          
-
-          
-          
           <li> Chamberlain, S. 2020. rredlist: “IUCN” Red List Client. https://CRAN.R-project.org/package=rredlist. </li>
           <li> Chamberlain, S., and C. Boettiger. 2017. R Python, and Ruby clients for GBIF species occurrence data. PeerJ PrePrints:1–32.</li>
           <li> Chamberlain, S., and E. Szöcs. 2013. taxize - taxonomic search and retrieval in R. F1000Research 2:191.</li>
@@ -289,21 +288,27 @@
           <li> Chamberlain, S., V. Barve, D. McGlinn, D. Oldoni, P. Desmet, L. Geffert, and K. Ram. 2021. rgbif: Interface to the Global Biodiversity Information Facility API. https://CRAN.R-project.org/package=rgbif. </li>
           <li> Collyer, M. L., and D. C. Adams. 2018. RRPP: An R package for fitting linear models to high‐dimensional data using residual randomization. Methods in Ecology and Evolution 9:1772–1779. </li>
           <li> Collyer, M. L., and D. C. Adams. 2021. RRPP: Linear Model Evaluation with Randomized Residuals in a Permutation Procedure. https://cran.r-project.org/package=RRPP. </li>
+          
           <li> Danner, R., E. Derryberry, G. Derryberry, J. Danner, and D. Luther. 2019. SongEvo: An Individual-Based Model of Bird Song Evolution. https://CRAN.R-project.org/package=SongEvo. </li>
           <li> Dokter, A. M., P. Desmet, J. H. Spaaks, S. Van Hoey, L. Veen, L. Verlinden, C. Nilsson, G. Haase, H. Leijnse, A. Farnsworth, W. Bouten, and J. Shamoun-Baranes. 2019. bioRad: biological analysis and visualization of weather radar data. Ecography 42:852–860. </li>
+          
           <li> eBird. 2021. eBird: An online database of bird distribution and abundance "web application". eBird, Cornell Lab of Ornithology, Ithaca, New York. </li>
           <li> Edwards, B. P. M., and A. C. Smith. 2020. bbsBayes: An R Package for Hierarchical Bayesian Analysis of North American Breeding Bird Survey Data. bioRxiv:1–25. </li>
           <li> Efford, M. 2020. secr: Spatially explicit capture-recapture models. https://CRAN.R-project.org/package=secr. </li>
           <li> Efford, M. 2020. openCR: Open population capture-recapture models. https://CRAN.R-project.org/package=openCR/. </li>
           <li> Erni, B., B. T. Bonnevie, H.-D. Oschadleus, R. Altwegg, and Les G Underhill. 2013. moult: An R Package to Analyze Moult in Birds. Journal of Statistical Software 52:1–23. </li>
+          
           <li> Fick, S. E., and R. J. Hijmans. 2017. Worldclim 2: New 1-km spatial resolution climate surfaces for global land areas. </li>
           <li> Fiske, I. J., and R. B. Chandler. 2011. unmarked: An R Package for Fitting Hierarchical Models of Wildlife Occurrence and Abundance. Journal of Statistical Software 43:1–23. </li>
           <li> Freeman, E. A., and G. Moisen. 2008. PresenceAbsence: An R package for presence-absence model analysis. Journal of Statistical Software 23:1–31. </li>
+          
           <li> Gerber, B. D., M. B. Hooten, C. P. Peck, M. B. Rice, J. H. Gammonley, A. D. Apa, and A. J. Davis. 2018. Accounting for location uncertainty in azimuthal telemetry data improves ecological inference. Movement Ecology 6:1–14. </li>
           <li> Gimenez, O., J.-D. Lebreton, R. Choquet, and R. Pradel. 2018. R2ucare: An R package to perform goodness-of-fit tests for capture-recapture models. Methods in Ecology and Evolution 9:1749–1754. </li>
+          <li> Goodrich, B., J. Gabry, I. Ali, and S. Brilleman. 2020. rstanarm: Bayesian applied regression modeling via Stan. https://mc-stan.org/rstanarm. </li>
           <li> Grames, E. M., A. N. Stillman, M. W. Tingley, and C. S. Elphick. 2019. An automated approach to identifying search terms for systematic reviews using keyword co-occurrence networks. Methods in Ecology and Evolution 10:1645–1654. </li>
           <li> Grames, E. M., A. N. Stillman, M. W. Tingley, and C. S. Elphick. 2020. litsearchr: Automated search term selection and search strategy for systematic reviews. https://github.com/elizagrames/litsearchr. </li>
           <li> Gross, C., and P. Ottolinger. 2016. ggThemeAssist: Add-in to Customize “ggplot2” Themes. https://CRAN.R-project.org/package=ggThemeAssist. </li>
+          
           <li> Hadfield, J. D. 2010. MCMC methods for multi-response generalized linear mixed models: The MCMCglmm R package. Journal of Statistical Software 33:1–22. </li>
           <li> Hafner, S. D., and J. Katz. 2018. monitoR: Acoustic template detection in R. http://www.uvm.edu/rsenr/vtcfwru/R/?Page=monitoR/monitoR.htm. </li>
           <li> Hatch, J., E. Josephson, and D. Sigourney. 2021. seebirdr: Formats and summarizes seabird shipboard survey data for database upload and cruise reports. </li>
@@ -465,6 +470,7 @@
       <pkg>rr2</pkg>
       <pkg>rredlist</pkg>
       <pkg>rstan</pkg>
+      <pkg>rstanarm</pkg>
       <pkg>secr</pkg>
       <pkg>seewave</pkg>
       <pkg>sf</pkg>
@@ -500,6 +506,7 @@
       <view>Tracking</view> 
       <a href="https://github.com/animalnexus/">Animalnexus project: Tools for animal movement using RFID</a>
       <a href="https://github.com/benmarwick/ctv-archaeology">Archaeology CTV</a>
+      <a href="http://adn.biol.umontreal.ca/~numericalecology/lex/lexique.html">Statistical Lexicon translated English-French</a>
     </links>
 
 </CRANTaskView>
