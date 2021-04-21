@@ -22,4 +22,4 @@ install.packages(ornitho.metrics.ctv$packagelist$name)
 
 ## References
 
-The references of the packages in the CTV can be found in the `bib` [folder here](https://github.com/beausoleilmo/Ornithometrics-ctv/tree/main/bib).
+The references of the packages in the CTV can be found in the `bib` [folder here](https://github.com/beausoleilmo/Ornithometrics-ctv/tree/main/docs/assets/bib/OrnithoBiblio.bib).
