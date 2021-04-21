@@ -21,7 +21,7 @@
       </p>
       
       <p>
-        The headers of the <a href="#toc">table of content</a> were made to facilitate navigation, but bear in mind that some packages might fall in multiple categories. Other <i>task views</i> could be consulted for broader coverage of topics including ecology and environment (known as the <view>Environmetrics</view> task view) and spatial analysis (which can be found in the <view>Spatial</view> task view). The rest of the CRAN task views can be seen <a href="https://cran.rstudio.com/web/views/">here</a>. There are also independent task views for various topics on GitHub. 
+        The headers of the <a href="#toc">table of content</a> were made to facilitate navigation, but bear in mind that some packages might fall in multiple categories. Other <i>task views</i> could be consulted for broader coverage of topics including ecology and environment (known as the <view>Environmetrics</view> task view) and spatial analysis (which can be found in the <view>Spatial</view> task view). The rest of the CRAN task views can be seen <a href="https://cran.rstudio.com/web/views/">here.</a> There are also independent task views for various topics on GitHub. 
       </p>
 
       <p> 
@@ -100,7 +100,7 @@
           <li> <pkg>multimark</pkg> includes models, accounting for imperfect detection, that can deal with non-invasive marks from different types of sources (images, fluctuating asymetry in colour patterns), to estimate animal abundance and demographic parameters (McClintock 2015)</li>
           <li> <pkg>nimbleSCR</pkg> uses <a href="https://r-nimble.org">"nimble"</a> to implement Spatial Capture-Recapture (SCR) and Open Population Spatial Capture-Recapture (OPSCR) models (Bischof et al. 2021)</li>
           <li> <pkg>openCR</pkg>: Open population Capture-Recapture package to fit non-spatiatial ans spatial models (Efford 2020)</li>
-          <li><a href="https://github.com/jaroyle/oSCR">oSCR: open spatial capture-recapture</a>. <a href="https://sites.google.com/site/spatialcapturerecapture/oscr-package">A the project webpage</a> has details about tutorials and workshops (Sutherland, Royle and Linden 2019)</li> 
+          <li><a href="https://github.com/jaroyle/oSCR">oSCR: open spatial capture-recapture.</a> <a href="https://sites.google.com/site/spatialcapturerecapture/oscr-package">A the project webpage</a> has details about tutorials and workshops (Sutherland, Royle and Linden 2019)</li> 
           <li> <pkg>PresenceAbsence</pkg> (Freeman and Moisen 2008)</li>
           <li> <pkg>R2ucare</pkg> (Gimenez et al. 2018)</li>
           <li> <pkg>Rcapture</pkg> (Rivest and Baillargeon 2019)</li>
@@ -130,7 +130,7 @@
           <li><pkg>GeoLight</pkg> location of animals using light intensity measurements over time (Lisovski and Hahn 2012) </li>
           <li><a href="https://github.com/dbspitz/migrateR">migrateR</a>: animal movement behavior analysis (Spitz 2019)</li>
           <li><pkg>momentuHMM</pkg> allows animal movement analysis using hidden Markov models (McClintock and Michelot 2018)</li>
-          <li><a href="https://github.com/MotusWTS/motus">Motus</a>. The Motus book can be <a href="https://beta.motus.org/MotusRBook/">seen from this link</a> (Brzustowski and Lepage 2021)</li>
+          <li><a href="https://github.com/MotusWTS/motus">Motus.</a> The Motus book can be <a href="https://beta.motus.org/MotusRBook/">seen from this link</a> (Brzustowski and Lepage 2021)</li>
           <li> <pkg>moveWindSpeed</pkg>: Estimate wind speeds from bird trajectories (Kranstauber and Weinzierl 2019)</li>
           <li><a href="https://github.com/benjamin-merkel/probGLS">probGLS</a> probabilistic algorithm for geolocation data (Merkel 2021)</li>
           <li><a href="https://github.com/cppeck/razimuth">razimuth</a>: (Gerber et al. 2018)</li>
@@ -139,7 +139,7 @@
           <li><a href="https://github.com/allisonglider/seabiRds">seabiRds</a> (Patterson 2021) </li>
           <li><a href="https://github.com/SWotherspoon/SGAT">SGAT</a> for animal geolocation data (Sumner, Wotherspoon and Hindell 2009; Lisovski and Hahn 2012)</li>
           <li><a href="https://github.com/cran/sigloc">sigloc</a>: The sigloc (Signal Location Estimation; Berg 2015) package is now <a href="https://cran.r-project.org/package=sigloc">archived</a> on the CRAN. </li>
-          <li><a href="https://github.com/slisovski/TwGeos">TwGeos</a>. light-level geolocation (Lisovski, Wotherspoon and Sumner 2016)</li>
+          <li><a href="https://github.com/slisovski/TwGeos">TwGeos.</a> light-level geolocation (Lisovski, Wotherspoon and Sumner 2016)</li>
           <li> <pkg>wildlifeDI</pkg> (Long et al. 2014)</li>
         </ul>
     </section>
@@ -194,10 +194,10 @@
       <h4><strong>Databases</strong></h4>
         <ul>
           <li><pkg>spocc</pkg> is shown first as it can interface many servers containing data for species occurence. (Chamberlain 2021)</li>
-          <li><a href="https://github.com/SWotherspoon/BAStag">BAStag</a>. (Wotherspoon, Sumner and Lisovski 2016)</li>
-          <li><a href="https://www.worldclim.org/data/bioclim.html">Bioclimatic data from WorldClim</a>. (Fick and Hijmans 2017)</li>
-          <li><a href="https://www.pwrc.usgs.gov/bbs/">Breeding bird survey</a>. The Breeding bird survey (BBS) which can be analysed with the <pkg>bbsBayes</pkg> package (Edwards and Smith 2020)</li>
-          <li><a href="https://ebird.org/science">eBird data</a>. <pkg>ebirdst</pkg> is a package that allows access and analyze eBird status and trends data (eBird 2021). You can also use the <pkg>auk</pkg> package to directly process the data from eBird if you requested access to the data (Strimas-Mackey, Miller and Hochachka 2018). The package <pkg>rebird</pkg> allows interfacing the eBird database in R (Maia et al. 2021)</li>
+          <li><a href="https://github.com/SWotherspoon/BAStag">BAStag.</a> (Wotherspoon, Sumner and Lisovski 2016)</li>
+          <li><a href="https://www.worldclim.org/data/bioclim.html">Bioclimatic data from WorldClim.</a> (Fick and Hijmans 2017)</li>
+          <li><a href="https://www.pwrc.usgs.gov/bbs/">Breeding bird survey.</a> The Breeding bird survey (BBS) which can be analysed with the <pkg>bbsBayes</pkg> package (Edwards and Smith 2020)</li>
+          <li><a href="https://ebird.org/science">eBird data.</a> <pkg>ebirdst</pkg> is a package that allows access and analyze eBird status and trends data (eBird 2021). You can also use the <pkg>auk</pkg> package to directly process the data from eBird if you requested access to the data (Strimas-Mackey, Miller and Hochachka 2018). The package <pkg>rebird</pkg> allows interfacing the eBird database in R (Maia et al. 2021)</li>
           <li><a href="https://euring.org">Euring</a> data can be read and processed using the <pkg>birdring</pkg> package (Korner-Nievergelt and Robinson 2014)</li>
           <li> <pkg>MODIS</pkg> contains a set of functions to interface the Moderate Resolution Imaging Spectroradiometer (MODIS) data (Mattiuzzi and Detsch 2020) and the <pkg>MODISTools</pkg> accesses the MODIS Land Products Subsets (Tuck et al. 2014)</li>
           <li><a href="https://github.com/MotusWTS/motus">Motus Wildlife Tracking System</a> and <a href="https://github.com/MotusWTS/motusdata">Motus datasets</a> (Birds Canada 2019)</li>
@@ -212,7 +212,7 @@
           <li><a href="https://github.com/jmhatch-NOAA/seebirdr">seebirdr</a> package for formatting and summarizing seabird shipboard survey data (Hatch, Josephson and Sigourney 2021)</li>
           <li><a href="https://vtecostudies.org/projects/mountains/mountain-birdwatch/">Vermont Center for Ecostudies databases</a></li>
           <li><pkg>weathercan</pkg> (LaZerte and Albers 2018)</li>
-          <li><a href="https://www.xeno-canto.org">Xeno-canto database</a>. The <a href="https://github.com/maRce10/warbleR">warbleR</a> package can streamline the utilization of the data found on the server.</li>
+          <li><a href="https://www.xeno-canto.org">Xeno-canto database.</a> The <a href="https://github.com/maRce10/warbleR">warbleR</a> package can streamline the utilization of the data found on the server.</li>
         
         </ul>
       
