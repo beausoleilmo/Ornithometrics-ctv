@@ -29,7 +29,7 @@
       </p>
 
       <p>
-        This task view is made to encourage researchers to work with ornithological data and adopt best practices. Effort was made to cite all the packages as accurately as possible (see <a href="#references">reference</a> section). In addition, there are resource sections that include Atlases from various countries, states and provinces, but also links to databases that researchers can use to answer questions in ornithology (see the section titled <a href="#datasect">Datasets and atlases</a>). All references were exported in the style of journal "Ecology". The references do not include the version of the R packages, but it is highly encouraged to do so when citing packages (<code>citation(package = "package_name")</code>).
+        This task view is made to encourage researchers to work with ornithological data and adopt best practices. Effort was made to cite all the packages as accurately as possible (see <a href="#references">reference</a> section and the <a href="../bib/OrnitoBiblio.bib">.bib file here</a>). In addition, there are resource sections that include Atlases from various countries, states and provinces, but also links to databases that researchers can use to answer questions in ornithology (see the section titled <a href="#datasect">Datasets and atlases</a>). All references were exported in the style of journal "Ecology". The references do not include the version of the R packages, but it is highly encouraged to do so when citing packages (<code>citation(package = "package_name")</code>).
       </p>
 
       <p>
