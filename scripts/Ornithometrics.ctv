@@ -134,6 +134,7 @@
           <li> <pkg>FLightR</pkg> Spatio-temporal relocation of animals using light geolocators (Rakhimberdiev et al. 2015; Rakhimberdiev et al. 2016; Rakhimberdiev et al. 2017; Rakhimberdiev and Saveliev 2020)</li>
           <li><pkg>gaiah</pkg> lets you find the find the breeding origin of migrant birds (Ruegg et al. 2017; Anderson 2020) </li>
           <li><pkg>GeoLight</pkg> location of animals using light intensity measurements over time (Lisovski and Hahn 2012) </li>
+          <li><a href="https://github.com/SMBC-NZP/MigConnectivity">MigConnectivity</a> offers a framework to describe how populations co-occur in a year, i.e., migratory connectivity (Cohen et al. 2018)</li>
           <li><a href="https://github.com/dbspitz/migrateR">migrateR</a>: animal movement behavior analysis (Spitz 2019)</li>
           <li><pkg>momentuHMM</pkg> allows animal movement analysis using hidden Markov models (McClintock and Michelot 2018)</li>
           <li><a href="https://github.com/MotusWTS/motus">Motus.</a> The Motus book can be <a href="https://beta.motus.org/MotusRBook/">seen from this link</a> (Brzustowski and Lepage 2021)</li>
@@ -182,7 +183,7 @@
           <li><pkg>dsm</pkg> (Miller et al. 2021)</li>
           <li><pkg>mgcv</pkg> is useful to get fitness landscapes as smooth surface using generalized additive models (Wood 2003, 2004, 2011, 2017; Wood, Pya and Säfken 2016)</li>
           <li><pkg>nicheROVER</pkg>:  <a href="https://cran.r-project.org/web/packages/nicheROVER/vignettes/ecol-vignette.html">Guide for using nicheROVER</a> (Lysy, Stasko and Swanson 2014)</li>
-          <li><view>Environmetrics</view></li>
+          <li><view>Environmetrics</view> which include the famous community ecology package <pkg>vegan</pkg> (Oksanen et al. 2019) </li>
         </ul>
     </section>
 
@@ -220,6 +221,7 @@
           <li><pkg>rinat</pkg>: <a href="https://www.inaturalist.org/pages/how+can+i+use+it">iNaturalist</a> data access through an API (Barve and Hart 2021)</li>
         
           <li><a href="https://partnersinflight.org/what-we-do/science/databases/">Partners in Flight (PIF) databases</a></li>
+          <li><pkg>RNCEP</pkg> accesses summary data of the <a href="https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html"> National Centers for Environmental Prediction and National Center for Atmospheric Research data (NCEP-NCAR)</a> and the <a href="https://psl.noaa.gov/data/gridded/data.ncep.reanalysis2.html"> National Centers for Environmental Prediction and Department of Energy (NCEP-DOE)</a> (Kalnay et al. 1996; Kanamitsu et al. 2002; Kemp et al. 2012a, 2012b)</li>
           <li><a href="https://github.com/jmhatch-NOAA/seebirdr">seebirdr</a> package for formatting and summarizing seabird shipboard survey data (Hatch, Josephson and Sigourney 2021)</li>
           <li><a href="https://vtecostudies.org/projects/mountains/mountain-birdwatch/">Vermont Center for Ecostudies databases</a></li>
           <li><pkg>weathercan</pkg> (LaZerte and Albers 2018)</li>
@@ -304,6 +306,7 @@
           <li> Chamberlain, S., E. Szöecs, Z. Foster, Z. Arendsee, C. Boettiger, K. Ram, I. Bartomeus, J. Baumgartner, J. ODonnell, J. Oksanen, B. G. Tzovaras, P. Marchand, V. Tran, M. Salmon, G. Li, and M. Grenié. 2020. taxize: Taxonomic information from around the web.</li>
           <li> Chamberlain, S., V. Barve, D. McGlinn, D. Oldoni, P. Desmet, L. Geffert, and K. Ram. 2021. rgbif: Interface to the Global Biodiversity Information Facility API. https://CRAN.R-project.org/package=rgbif. </li>
           <li> Chamberlain, S., Z. Foster, I. Bartomeus, D. LeBauer, C. Black, and D. Harris. 2020. traits: Species Trait Data from Around the Web. https://CRAN.R-project.org/package=traits. </li>
+          <li> Cohen, E. B., J. A. Hostetler, M. T. Hallworth, C. S. Rushing, T. S. Sillett, and P. P. Marra. 2018. Quantifying the strength of migratory connectivity. Methods in Ecology and Evolution 9:513–524. </li>
           <li> Collyer, M. L., and D. C. Adams. 2018. RRPP: An R package for fitting linear models to high‐dimensional data using residual randomization. Methods in Ecology and Evolution 9:1772–1779. </li>
           <li> Collyer, M. L., and D. C. Adams. 2021. RRPP: Linear Model Evaluation with Randomized Residuals in a Permutation Procedure. https://cran.r-project.org/package=RRPP. </li>
           
@@ -344,6 +347,10 @@
           <li> Jombart, T. 2008. adegenet: a R package for the multivariate analysis of genetic markers. Bioinformatics 24:1403–1405. </li>
           <li> Jombart, T., F. Balloux, and S. Dray. 2010. adephylo: exploratory analyses for the phylogenetic comparative method. Bioinformatics:1907–1909.</li>
           <li> Jombart, T., and I. Ahmed. 2011. adegenet 1.3-1: new tools for the analysis of genome-wide SNP data 27:3070–3071. </li>
+          <li> Kalnay, E., M. Kanamitsu, R. Kistler, W. Collins, D. Deaven, L. Gandin, M. Iredell, S. Saha, G. White, J. Woollen, Y. Zhu, M. Chelliah, W. Ebisuzaki, W. Higgins, J. Janowiak, K. C. Mo, C. Ropelewski, J. Wang, A. Leetmaa, R. Reynolds, R. Jenne, and D. Joseph. 1996. The NCEP/NCAR 40-Year reanalysis project. Bulletin of the American Meteorological Society 77:437–472. </li>
+          <li> Kanamitsu, M., W. Ebisuzaki, J. Woollen, S.-K. Yang, J. J. Hnilo, M. Fiorino, and G. L. Potter. 2002. NCEP-DOE AMIP-II reanalysis (R-2). Bulletin of the American Meteorological Society:1–14. </li>
+          <li> Kemp, M. U., E. E. van Loon, J. Shamoun-Baranes, and W. Bouten. 2012a. RNCEP: global weather and climate data at your fingertips. Methods in Ecology and Evolution 3:65–70. </li>
+          <li> Kemp, M. U., J. Shamoun-Baranes, E. E. van Loon, J. D. McLaren, A. M. Dokter, and W. Bouten. 2012b. Quantifying flow-assistance and implications for movement research. Journal of Theoretical Biology 308:56–67. </li>
           <li> Klein Heerenbrink, M. 2020. afpt: Tools for modelling of animal flight performance. https://CRAN.R-project.org/package=afpt. </li>
           <li> Klein Heerenbrink, M., L. C. Johansson, and A. Hedenstrom. 2015. Power of the wingbeat: modelling the effects of flapping wings in vertebrate flight. Proceedings of the Royal Society A 471:20140952. </li>
           <li> Korner-Nievergelt, F., and R. A. Robinson. 2014. Introducing the R-package “birdring.” Ringing and Migration 29:51–61. </li>
@@ -372,6 +379,7 @@
           <li> Merkel, B. 2021. probGLS: probabilistic algorithm for geolocation data. </li>
           <li> Miller, D. L., E. Rexstad, L. Burt, M. V. Bravington, and S. Hedley. 2021. dsm: Density Surface Modelling of Distance Sampling Data. https://CRAN.R-project.org/package=dsm. </li>
           <li> Miller, D. L., E. Rexstad, L. Thomas, L. Marshall, and J. L. Laake. 2019. Distance sampling in R. Journal of Statistical Software 89:1–28. </li>
+          <li> Oksanen, J., F. G. Blanchet, M. Friendly, R. Kindt, P. Legendre, D. McGlinn, P. R. Minchin, R. B. O'Hara, G. L. Simpson, P. Sólymos, M. H. H. Stevens, E. Szöecs, and H. Wagner. 2019. vegan: Community ecology package. https://CRAN.R-project.org/package=vegan. </li>
           <li> Padgham, M., B. Rudis, R. Lovelace, and M. Salmon. 2017. osmdata. The Journal of Open Source Software 2:1. </li>
           <li> Patterson, A. 2021. seabiRds: Prepares biologging data for analysis and upload to the lab database. </li>
           <li> Pebesma, E. J., and R. S. Bivand. 2005. Classes and methods for spatial data in R. R News 5:9–13.</li>
@@ -504,6 +512,7 @@
       <pkg>rjags</pkg>
       <pkg>rgbif</pkg>
       <pkg>RMark</pkg>
+      <pkg>RNCEP</pkg>
       <pkg>rr2</pkg>
       <pkg>Rraven</pkg>
       <pkg>rredlist</pkg>
@@ -522,6 +531,7 @@
       <pkg>traits</pkg>
       <pkg>tuneR</pkg>
       <pkg>unmarked</pkg>
+      <pkg>vegan</pkg>
       <pkg>visreg</pkg>
       <pkg>weathercan</pkg>
       <pkg>wildlifeDI</pkg>
