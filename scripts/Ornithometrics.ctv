@@ -81,6 +81,8 @@
           <li><pkg>placer</pkg> is designed to assess the prevalence of plastic debris in bird nests (Tavares et al. 2020). </li>
           <li><pkg>prioritizr</pkg> allows the development of models (in particular, mixed integer linear programming (MILP)) to help solve conservation planning (Hanson et al. 2021). Might also require the Gurobi optimization software and the 'gurobi' R package</li>
           <li><pkg>rredlist</pkg>: provided you requested and have an API key, the package allows access to the IUCN red list data (Chamberlain 2020)</li>
+          <li><pkg>red</pkg> can be used to do spatial analyses using observed occurences or estimates ranges (Cardoso 2017)</li>
+          <li><a href="https://github.com/BirdLifeInternational/track2kba">track2kba:</a> a collection of functions used to determine important biodivisity areas using tracking data (Beal et al. 2020). </li>
           <li> There is no specific package for long-term studies, but you might be interested in looking into the <view>TimeSeries</view> task view.</li>
         </ul>
     </section>
@@ -285,6 +287,7 @@
           <li> Barve, V., and E. Hart. 2021. rinat: Access “iNaturalist” Data Through APIs. https://CRAN.R-project.org/package=rinat. </li>
           <li> Bates, D., M. Mächler, B. Bolker, and S. Walker. 2015. Fitting Linear Mixed-Effects Models Using lme4. Journal of Statistical Software 67:1–48. </li>
           <li> Baumgartner, J., and P. Wilson. 2017. rmaxent: Tools for working with Maxent in R. https://github.com/johnbaums/rmaxent. </li>
+          <li> Beal, M., S. Oppel, J. Handley, L. Pearmain, V. Morera-Pujol, M. Miller, P. Taylor, Ben Lascelles, and M. Dias. 2020. BirdLifeInternational/track2kba. https://github.com/BirdLifeInternational/track2kba. </li>
           <li> Bennett, D. J., H. Hettling, D. Silvestro, A. Zizka, C. D. Bacon, S. Faurby, R. A. Vos, and A. Antonelli. 2018. phylotaR: An Automated Pipeline for Retrieving Orthologous DNA Sequences from GenBank in R. Life 8:20.</li>
           <li> Berg, S. S. 2015. The package “sigloc” for the R software: a tool for triangulating transmitter locations in ground-based telemetry studies of wildlife populations. Bulletin of the Ecological Society of America 96:500–507. </li>
           <li> Biagolini Jr, C. 2020. bwimage: Describe image patterns in natural structures. https://CRAN.R-project.org/package=bwimage. </li>
@@ -299,6 +302,7 @@
           
           <li> Calabrese, J. M., C. H. Fleming, and E. Gurarie. 2016. ctmm: an R package for analyzing animal relocation data as a continuous-time stochastic process. Methods in Ecology and Evolution 7:1124–1132.</li>
           <li> Calenge, C. 2006. The package “adehabitat” for the R software: A tool for the analysis of space and habitat use by animals. Ecological Modelling 197:516–519. </li>
+          <li> Cardoso, P. 2017. red - an R package to facilitate species red list assessments according to the IUCN criteria. Biodiversity Data Journal 5:e20530. </li>
           <li> Chamberlain, S. 2020. rredlist: “IUCN” Red List Client. https://CRAN.R-project.org/package=rredlist. </li>
           <li> Chamberlain, S. 2021. spocc: Interface to species occurrence data sources. https://CRAN.R-project.org/package=spocc. </li>
           <li> Chamberlain, S., and C. Boettiger. 2017. R Python, and Ruby clients for GBIF species occurrence data. PeerJ PrePrints:1–32.</li>
@@ -507,6 +511,7 @@
       <pkg>rAvis</pkg>
       <pkg>Rcapture</pkg>
       <pkg>rebird</pkg>
+      <pkg>red</pkg>
       <pkg>ResourceSelection</pkg>
       <pkg>rinat</pkg>
       <pkg>rjags</pkg>
