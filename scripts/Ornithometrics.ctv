@@ -5,7 +5,7 @@
   <name>Ornithometrics</name>
   <topic>Analysis of ornithological data</topic>
   <maintainer email="marc-olivier.beausoleil@mail.mcgill.ca">Marc-Olivier Beausoleil</maintainer>
-  <version>2021-03-16</version>
+  <version>2021-08-02</version>
   <!-- <url>https://CRAN.R-project.org/view=Ornithometrics</url> -->
   <url>https://github.com/beausoleilmo/Ornithometrics-ctv</url>
 
@@ -174,6 +174,7 @@
           <li><pkg>MixSIAR</pkg>: Bayesian Mixing Models in R with which stable isotope mixing models can be used to reconstruct avian diet (Stock and Semmens 2016; Stock et al. 2018). Also, check out the package <pkg>siar</pkg> to fit Bayesian model to isotopic data on organisms (Gaussian likelihood with mixture dirichlet prior) (Parnell and Jackson 2013) and the package <pkg>simmr</pkg> replacing the package "siar" (Parnell 2021). For trophic position, consult the <pkg>tRophicPosition</pkg> package (Quezada-Romegialli et al. 2018; Quezada-Romegialli, Jackson and Harrod 2019). </li>
           <li><pkg>moult</pkg>: Models for analysing moult in birds (Erni et al. 2013)</li>
           <li><a href="https://github.com/pboesu/moultmcmc/">moultmcmc</a>: Bayesian inference for moult phenology models (Boersch-Supan 2021)</li>
+          <li><pkg>pavo</pkg> color analysis in birds and more (Maia et al. 2019). </li>
           <li><pkg>traits</pkg> gathers species trait from various data centers including the Birdlife International/IUCN threat and habitat information and more (Chamberlain et al. 2020). </li>
         </ul>
     </section>
@@ -374,6 +375,7 @@
           <li> Long, J., T. Nelson, S. Webb, and K. Gee. 2014. A critical examination of indices of dynamic interaction for wildlife telemetry studies. Journal of Animal Ecology 83:1216–1233. </li>
           <li> Luque, S. P. 2007. Diving behaviour analysis in R. R News 7:8–14. </li>
           <li> Lysy, M., A. D. Stasko, and H. K. Swanson. 2014. nicheROVER: (Niche) (R)egion and niche (Over)lap metrics for multidimensional ecological niches. https://CRAN.R-project.org/package=nicheROVER. </li>
+          <li> Maia, R., H. Gruson, J. A. Endler, and T. E. White. 2019. pavo 2: New tools for the spectral and spatial analysis of colour in R. Methods in Ecology and Evolution 10:1097–1107. </li>
           <li> Maia, R., S. Chamberlain, A. Teucher, and S. Pardo. 2021. rebird: R Client for the eBird Database of Bird Observations. https://github.com/ropensci/rebird. </li>
           <li> Masinde, B. 2020. flying: Simulation of Bird Flight Range. https://CRAN.R-project.org/package=flying. </li>
           <li> Mattiuzzi, M., and F. Detsch. 2020. MODIS: Acquisition and processing of MODIS products. https://CRAN.R-project.org/package=MODIS. </li>
@@ -506,6 +508,7 @@
       <pkg>openCR</pkg>
       <pkg>osmdata</pkg>
       <pkg>patchwork</pkg>
+      <pkg>pavo</pkg>
       <pkg>placer</pkg>
       <pkg>PresenceAbsence</pkg>
       <pkg>prioritizr</pkg>
@@ -574,6 +577,9 @@
       <a href="https://github.com/qinwf/awesome-R">Collection of popular R packages</a>
       <a href="https://github.com/erikgahner/awesome-ggplot2">Collection of ggplot2 "extensions"</a>
       <a href="https://borealbirds.ualberta.ca/r-packages/">Boreal Avian Modelling Project — Projet de modélisation aviaire boréal: R Packages</a>
+      <a href="https://ropensci.org"> rOpenSci</a>
+      <a href="https://rmetaverse.github.io"> metaverse: R packages for metadata analysis</a>
+      <a href="https://r-universe.dev/help/"> R-universe: package collections</a>
     </links>
 
 </CRANTaskView>
