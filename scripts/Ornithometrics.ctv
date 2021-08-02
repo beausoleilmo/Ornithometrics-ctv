@@ -174,7 +174,7 @@
           <li><pkg>MixSIAR</pkg>: Bayesian Mixing Models in R with which stable isotope mixing models can be used to reconstruct avian diet (Stock and Semmens 2016; Stock et al. 2018). Also, check out the package <pkg>siar</pkg> to fit Bayesian model to isotopic data on organisms (Gaussian likelihood with mixture dirichlet prior) (Parnell and Jackson 2013) and the package <pkg>simmr</pkg> replacing the package "siar" (Parnell 2021). For trophic position, consult the <pkg>tRophicPosition</pkg> package (Quezada-Romegialli et al. 2018; Quezada-Romegialli, Jackson and Harrod 2019). </li>
           <li><pkg>moult</pkg>: Models for analysing moult in birds (Erni et al. 2013)</li>
           <li><a href="https://github.com/pboesu/moultmcmc/">moultmcmc</a>: Bayesian inference for moult phenology models (Boersch-Supan 2021)</li>
-          <li><pkg>pavo</pkg> color analysis in birds and more (Maia et al. 2019). </li>
+          <li><pkg>pavo</pkg>: color analysis in birds and more (Maia et al. 2019). </li>
           <li><pkg>traits</pkg> gathers species trait from various data centers including the Birdlife International/IUCN threat and habitat information and more (Chamberlain et al. 2020). </li>
         </ul>
     </section>
