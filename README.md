@@ -13,7 +13,7 @@ library(ctv)
 
 # Download the CTV to a know location -------------------------------------
 
-# Here the ".ctv" is in "scripts"
+# On Github, the ".ctv" is in "scripts" folder
 ornitho.metrics.ctv <- read.ctv("scripts/Ornithometrics.ctv")
 
 # Use the install.packages() function to install the packages
