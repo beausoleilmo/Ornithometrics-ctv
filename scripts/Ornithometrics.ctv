@@ -5,7 +5,7 @@
   <name>Ornithometrics</name>
   <topic>Analysis of ornithological data</topic>
   <maintainer email="marc-olivier.beausoleil@mail.mcgill.ca">Marc-Olivier Beausoleil</maintainer>
-  <version>2021-08-02</version>
+  <version>2021-08-09</version>
   <!-- <url>https://CRAN.R-project.org/view=Ornithometrics</url> -->
   <url>https://github.com/beausoleilmo/Ornithometrics-ctv</url>
 
@@ -261,7 +261,7 @@
           <li><pkg>bSims</pkg>: Bird Point Count Simulator (Sólymos 2019)</li>
           <li><pkg>climwin</pkg>: Climate window analysis (van de Pol et al. 2016)</li>
           <li><pkg>emmeans</pkg> (Lenth 2021)</li>
-          <li>Modeling and model comparison with packages like <pkg>lme4</pkg> (Bates et al. 2015), <pkg>MuMIn</pkg> (Bartoń 2020) and <pkg>AICcmodavg</pkg> (Mazerolle 2020)</li>
+          <li>Modeling and model comparison with packages like <pkg>lme4</pkg> (Bates et al. 2015), <pkg>MuMIn</pkg> (Bartoń 2020) and <pkg>AICcmodavg</pkg> (Mazerolle 2020), <a href="https://www.r-inla.org">INLA (integrated nested Laplace approximation)</a> with <pkg>inlabru</pkg> (Bachl et al. 2019) </li>
           <li><pkg>ggThemeAssist</pkg> (Gross and Ottolinger 2016)</li>
           <li><a href="https://github.com/elizagrames/litsearchr">litsearchr</a> (Grames et al. 2019, 2020)</li>
           <li><pkg>patchwork</pkg> (Pedersen 2020)</li>
@@ -283,6 +283,7 @@
           <li> Araya-Salas, M., and G. Smith-Vidaurre. 2017. warbleR: an r package to streamline analysis of animal acoustic signals. Methods in Ecology and Evolution 8:184–191.</li>
           <li> Araya-Salas, M. 2020. Rraven: connecting R and Raven bioacoustic software. https://CRAN.R-project.org/package=Rraven. </li>
           
+          <li> Bachl, F. E., F. Lindgren, D. L. Borchers, and J. B. Illian. 2019. inlabru: an R package for Bayesian spatial modelling from ecological survey data. Methods in Ecology and Evolution 10:760–766. </li>
           <li> Baken, E. K., M. L. Collyer, A. Kaliontzopoulou, and D. C. Adams. 2021. gmShiny and geomorph v4.0: new graphical interface and enhanced analytics for a comprehensive morphometric experience. Methods in Ecology and Evolution. </li>
           <li> Bartoń, K. 2020. MuMIn: Multi-Model Inference. https://CRAN.R-project.org/package=MuMIn. </li>
           <li> Barve, V., and E. Hart. 2021. rinat: Access “iNaturalist” Data Through APIs. https://CRAN.R-project.org/package=rinat. </li>
@@ -490,6 +491,7 @@
       <pkg>GeoLight</pkg>
       <pkg>geomorph</pkg>
       <pkg>ggThemeAssist</pkg>
+      <pkg>inlabru</pkg>
       <pkg>lme4</pkg>
       <pkg>marked</pkg>
       <pkg>MCMCglmm</pkg>
