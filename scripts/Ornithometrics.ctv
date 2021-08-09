@@ -261,7 +261,7 @@
           <li><pkg>bSims</pkg>: Bird Point Count Simulator (Sólymos 2019)</li>
           <li><pkg>climwin</pkg>: Climate window analysis (van de Pol et al. 2016)</li>
           <li><pkg>emmeans</pkg> (Lenth 2021)</li>
-          <li>Modeling and model comparison with packages like <pkg>lme4</pkg> (Bates et al. 2015), <pkg>MuMIn</pkg> (Bartoń 2020) and <pkg>AICcmodavg</pkg> (Mazerolle 2020), <a href="https://www.r-inla.org">INLA (integrated nested Laplace approximation)</a> with <pkg>inlabru</pkg> (Bachl et al. 2019) </li>
+          <li>Modeling and model comparison with packages like <pkg>lme4</pkg> (Bates et al. 2015), <pkg>MuMIn</pkg> (Bartoń 2020) and <pkg>AICcmodavg</pkg> (Mazerolle 2020), <a href="https://www.r-inla.org">INLA (integrated nested Laplace approximation)</a> with <pkg>inlabru</pkg> allows you to build a wide variety of spatiotemporal models in a Bayesian framework that are computationally efficient (Bachl et al. 2019) </li>
           <li><pkg>ggThemeAssist</pkg> (Gross and Ottolinger 2016)</li>
           <li><a href="https://github.com/elizagrames/litsearchr">litsearchr</a> (Grames et al. 2019, 2020)</li>
           <li><pkg>patchwork</pkg> (Pedersen 2020)</li>
