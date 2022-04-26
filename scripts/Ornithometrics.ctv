@@ -111,6 +111,7 @@
           <li> <pkg>PresenceAbsence</pkg> (Freeman and Moisen 2008)</li>
           <li> <pkg>R2ucare</pkg> (Gimenez et al. 2018)</li>
           <li> <pkg>Rcapture</pkg> (Rivest and Baillargeon 2019)</li>
+          <li> <a href="http://ringr.gryllosoft.hu">ringR:</a> includes functions to manipulate ringing data (Harnos, Fehérvári and Csörgő 2015) </li>
           <li> <pkg>RMark</pkg> (Laake 2013) </li>
           <li><a href="https://sites.google.com/site/spatialcapturerecapture/scrbook-r-package">scrbook</a> (Royle et al. 2020).</li> 
           <li> <pkg>secr</pkg> (Efford 2020)</li>
@@ -344,6 +345,7 @@
           <li> Hafner, S. D., and J. Katz. 2018. monitoR: Acoustic template detection in R. http://www.uvm.edu/rsenr/vtcfwru/R/?Page=monitoR/monitoR.htm. </li>
           <li> Hatch, J., E. Josephson, and D. Sigourney. 2021. seebirdr: Formats and summarizes seabird shipboard survey data for database upload and cruise reports. </li>
           <li> Hanson, J. O., R. Schuster, N. Morrell, M. Strimas-Mackey, M. E. Watts, P. Arcese, J. Bennett, and H. P. Possingham. 2021. prioritizr: Systematic conservation prioritization in R. https://CRAN.R-project.org/package=prioritizr. </li>
+          <li> Harnos, A., P. Fehérvári, and T. Csörgő. 2015. Hitchhikers’ guide to analysing bird ringing data Part 1: data cleaning, preparation and exploratory analyses. Ornis Hungarica 23:163–188. </li>
           <li> Hernández, J. G., and S. Varela. 2015. rAvis: Interface to the Bird-Watching Dataset Proyecto AVIS. https://CRAN.R-project.org/package=rAvis. </li>
           <li> Hijmans, R. J. 2020. raster: Geographic Data Analysis and Modeling. https://CRAN.R-project.org/package=raster. </li>
           <li> Hijmans, R. J., S. Phillips, J. Leathwick, and J. Elith. 2020. dismo: Species Distribution Modeling. https://CRAN.R-project.org/package=dismo. </li>
