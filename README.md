@@ -1,6 +1,6 @@
 # Ornithometrics (ctv) R Task View <a href='https://github.com/beausoleilmo/Ornithometrics-ctv'><img src='images/ornitho_logo.png' align="right" height="131.5" /></a>
 
-The **Ornithometrics task view** can be accessed [here](https://beausoleilmo.github.io/Ornithometrics-ctv/Ornithometrics.html) or jump directly to the [Table of content](https://beausoleilmo.github.io/Ornithometrics-ctv/Ornithometrics.html#toc).
+The **Ornithometrics task view** was available from [https://beausoleilmo.github.io/Ornithometrics-ctv/Ornithometrics.html](https://beausoleilmo.github.io/Ornithometrics-ctv/Ornithometrics.html). Now, you can consult the .ctv file and output html page directly. I welcome anyone who want to host the page again. 
 
 The Comprehensive R Archive Network (CRAN)'s [website](https://cran.r-project.org/web/views/) provides *task views* for a variety of topics, guiding the users to a diversity of packages that could be useful to that topic. Here we provide a collection of relevant packages in ornithology that covers a wide variety of topics in avian studies. 
 
